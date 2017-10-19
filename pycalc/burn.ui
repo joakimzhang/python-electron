@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_burn</class>
+ <widget class="QMainWindow" name="MainWindow_burn">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>665</width>
+    <height>456</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_offboard">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>烧写BSP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_takeoff">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>烧写APP</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>641</width>
+      <height>221</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>bsp版本</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>显示wifi</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>app版本</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="bsp_dir_lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>282</y>
+      <width>501</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="app_dir_lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>322</y>
+      <width>501</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_offboard_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>280</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BSP文件</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_offboard_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>320</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>app文件</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_offboard_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>359</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>log文件</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="log_dir_lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>360</y>
+      <width>501</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>显示log</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>665</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_offboard</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow_burn</receiver>
+   <slot>bsp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>62</x>
+     <y>55</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>422</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_takeoff</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow_burn</receiver>
+   <slot>airbee()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>155</x>
+     <y>55</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>521</x>
+     <y>65</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow_burn</receiver>
+   <slot>versions()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>41</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>505</x>
+     <y>30</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow_burn</receiver>
+   <slot>wifi()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>415</x>
+     <y>46</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>630</x>
+     <y>35</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow_burn</receiver>
+   <slot>app_version()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>322</x>
+     <y>42</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>470</x>
+     <y>43</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_offboard_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow_burn</receiver>
+   <slot>bsp_click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>62</x>
+     <y>317</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>11</x>
+     <y>335</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_offboard_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow_burn</receiver>
+   <slot>app_click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>354</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>18</x>
+     <y>382</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_offboard_5</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow_burn</receiver>
+   <slot>log_click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>60</x>
+     <y>397</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>16</x>
+     <y>414</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow_burn</receiver>
+   <slot>check_log()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>489</x>
+     <y>52</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>585</x>
+     <y>45</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <signal>signal1()</signal>
+  <slot>process_stdin()</slot>
+  <slot>hold()</slot>
+  <slot>offboard()</slot>
+  <slot>takeoff()</slot>
+  <slot>front()</slot>
+  <slot>back()</slot>
+  <slot>left()</slot>
+  <slot>right()</slot>
+  <slot>up()</slot>
+  <slot>down()</slot>
+  <slot>turn_right()</slot>
+  <slot>turn_left()</slot>
+  <slot>land()</slot>
+  <slot>download_log()</slot>
+  <slot>airbee()</slot>
+  <slot>bsp()</slot>
+  <slot>versions()</slot>
+  <slot>wifi()</slot>
+  <slot>app_version()</slot>
+  <slot>bsp_click()</slot>
+  <slot>app_click()</slot>
+  <slot>log_click()</slot>
+  <slot>check_log()</slot>
+ </slots>
+</ui>

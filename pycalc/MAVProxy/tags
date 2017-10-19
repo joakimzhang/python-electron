@@ -1,0 +1,1751 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADSBModule	modules/mavproxy_adsb.py	/^class ADSBModule(mp_module.MPModule):$/;"	c
+ADSBVehicle	modules/mavproxy_adsb.py	/^class ADSBVehicle(object):$/;"	c
+AntennaModule	modules/mavproxy_antenna.py	/^class AntennaModule(mp_module.MPModule):$/;"	c
+ArmModule	modules/mavproxy_arm.py	/^class ArmModule(mp_module.MPModule):$/;"	c
+AuxoptModule	modules/mavproxy_auxopt.py	/^class AuxoptModule(mp_module.MPModule):$/;"	c
+BLANK_TILES	modules/mavproxy_map/mp_tile.py	/^BLANK_TILES = set(["d16657bbee25d7f15c583f5c5bf23f50",$/;"	v
+BatteryModule	modules/mavproxy_battery.py	/^class BatteryModule(mp_module.MPModule):$/;"	c
+ButtonRenderer	modules/mavproxy_misseditor/button_renderer.py	/^class ButtonRenderer(wx.grid.PyGridCellRenderer):$/;"	c
+C1	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    C1 = eccPrimeSquared*cos(phi1Rad)*cos(phi1Rad)$/;"	v
+CalibrationModule	modules/mavproxy_calibration.py	/^class CalibrationModule(mp_module.MPModule):$/;"	c
+CameraViewModule	modules/mavproxy_cameraview.py	/^class CameraViewModule(mp_module.MPModule):$/;"	c
+CheckItem	modules/lib/mp_checklist.py	/^class CheckItem():$/;"	c
+CheckUI	modules/lib/mp_checklist.py	/^class CheckUI():$/;"	c
+ChecklistFrame	modules/lib/mp_checklist.py	/^class ChecklistFrame(wx.Frame):$/;"	c
+ChecklistModule	modules/mavproxy_checklist.py	/^class ChecklistModule(mp_module.MPModule):$/;"	c
+Clone	modules/mavproxy_misseditor/button_renderer.py	/^    def Clone(self):$/;"	m	class:ButtonRenderer
+CmdlongModule	modules/mavproxy_cmdlong.py	/^class CmdlongModule(mp_module.MPModule):$/;"	c
+ConsoleFrame	modules/lib/wxconsole_ui.py	/^class ConsoleFrame(wx.Frame):$/;"	c
+ConsoleModule	modules/mavproxy_console.py	/^class ConsoleModule(mp_module.MPModule):$/;"	c
+D	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    D = x\/(N1*k0)$/;"	v
+DEFAULT_DATUM	modules/lib/ANUGA/geo_reference.py	/^DEFAULT_DATUM = 'wgs84'$/;"	v
+DEFAULT_FALSE_EASTING	modules/lib/ANUGA/geo_reference.py	/^DEFAULT_FALSE_EASTING = 500000$/;"	v
+DEFAULT_FALSE_NORTHING	modules/lib/ANUGA/geo_reference.py	/^DEFAULT_FALSE_NORTHING = 10000000    # Default for southern hemisphere$/;"	v
+DEFAULT_PROJECTION	modules/lib/ANUGA/geo_reference.py	/^DEFAULT_PROJECTION = 'UTM'$/;"	v
+DEFAULT_UNITS	modules/lib/ANUGA/geo_reference.py	/^DEFAULT_UNITS = 'm'$/;"	v
+DEFAULT_ZONE	modules/lib/ANUGA/geo_reference.py	/^DEFAULT_ZONE = -1$/;"	v
+DGPSModule	modules/mavproxy_DGPS.py	/^class DGPSModule(mp_module.MPModule):$/;"	c
+DOC_DIR	modules/mavproxy_mmap/mmap_server.py	/^DOC_DIR = os.path.join(os.path.dirname(__file__), 'mmap_app')$/;"	v
+Draw	modules/mavproxy_misseditor/button_renderer.py	/^    def Draw(self, grid, attr, dc, rect, row, col, isSelected):$/;"	m	class:ButtonRenderer
+ERMap	modules/mavproxy_map/GAreader.py	/^class ERMap:$/;"	c
+EleModel	modules/mavproxy_map/mp_elevation.py	/^    EleModel = ElevationModel(opts.database, debug=opts.debug)$/;"	v	class:ElevationModel
+ElevationModel	modules/mavproxy_map/mp_elevation.py	/^class ElevationModel():$/;"	c
+FenceModule	modules/mavproxy_fence.py	/^class FenceModule(mp_module.MPModule):$/;"	c
+GasHeliModule	modules/mavproxy_gasheli.py	/^class GasHeliModule(mp_module.MPModule):$/;"	c
+Geo_reference	modules/lib/ANUGA/geo_reference.py	/^class Geo_reference:$/;"	c
+GetBestSize	modules/mavproxy_misseditor/button_renderer.py	/^    def GetBestSize(self, grid, dc, row, col):$/;"	m	class:ButtonRenderer
+GetElevation	modules/mavproxy_map/mp_elevation.py	/^    def GetElevation(self, latitude, longitude, timeout=0):$/;"	m	class:ElevationModel
+GimbalModule	modules/mavproxy_gimbal.py	/^class GimbalModule(mp_module.MPModule):$/;"	c
+GoProModule	modules/mavproxy_gopro.py	/^class GoProModule(mp_module.MPModule):$/;"	c
+Graph	modules/mavproxy_graph.py	/^class Graph():$/;"	c
+GraphDefinition	modules/lib/graphdefinition.py	/^class GraphDefinition(object):$/;"	c
+GraphDialog	modules/lib/wxgrapheditor.py	/^class GraphDialog(wx.Dialog):$/;"	c
+GraphFrame	modules/lib/live_graph_ui.py	/^class GraphFrame(wx.Frame):$/;"	c
+GraphModule	modules/mavproxy_graph.py	/^class GraphModule(mp_module.MPModule):$/;"	c
+HILModule	modules/mavproxy_HIL.py	/^class HILModule(mp_module.MPModule):$/;"	c
+Handler	modules/mavproxy_mmap/mmap_server.py	/^class Handler(BaseHTTPServer.BaseHTTPRequestHandler):$/;"	c
+HelpModule	modules/mavproxy_help.py	/^class HelpModule(mp_module.MPModule):$/;"	c
+ImagePanel	modules/lib/mp_widgets.py	/^class ImagePanel(wx.Panel):$/;"	c
+InvalidTileError	modules/mavproxy_map/srtm.py	/^class InvalidTileError(Exception):$/;"	c
+IsChecked	modules/lib/mp_menu.py	/^    def IsChecked(self):$/;"	m	class:MPMenuCheckbox
+JSModule	modules/mavproxy_joystick.py	/^class JSModule(mp_module.MPModule):$/;"	c
+LLtoUTM	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^def LLtoUTM( Lat, Long, ReferenceEllipsoid=23):$/;"	f
+Lat	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    Lat = Lat * _rad2deg$/;"	v
+Lat	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    Lat = phi1Rad - (N1*tan(phi1Rad)\/R1)*(D*D\/2-(5+3*T1+10*C1-4*C1*C1-9*eccPrimeSquared)*D*D*D*D\/24$/;"	v
+LinkModule	modules/mavproxy_link.py	/^class LinkModule(mp_module.MPModule):$/;"	c
+LiveGraph	modules/lib/live_graph.py	/^class LiveGraph():$/;"	c
+LogModule	modules/mavproxy_log.py	/^class LogModule(mp_module.MPModule):$/;"	c
+Long	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    Long = (D-(1+2*T1+C1)*D*D*D\/6+(5-2*C1+28*T1-3*C1*C1+8*eccPrimeSquared+24*T1*T1)$/;"	v
+Long	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    Long = LongOrigin + Long * _rad2deg$/;"	v
+LongOrigin	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    LongOrigin = (ZoneNumber - 1)*6 - 180 + 3  # +3 puts origin in middle of zone$/;"	v
+M	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    M = y \/ k0$/;"	v
+MAVFunctions	mavproxy.py	/^class MAVFunctions(object):$/;"	c
+MEE_GET_LOIT_RAD	modules/mavproxy_misseditor/me_event.py	/^MEE_GET_LOIT_RAD = 4$/;"	v
+MEE_GET_WP_DEFAULT_ALT	modules/mavproxy_misseditor/me_event.py	/^MEE_GET_WP_DEFAULT_ALT = 5$/;"	v
+MEE_GET_WP_RAD	modules/mavproxy_misseditor/me_event.py	/^MEE_GET_WP_RAD = 3$/;"	v
+MEE_LOAD_WP_FILE	modules/mavproxy_misseditor/me_event.py	/^MEE_LOAD_WP_FILE = 7$/;"	v
+MEE_READ_WPS	modules/mavproxy_misseditor/me_event.py	/^MEE_READ_WPS = 0$/;"	v
+MEE_SAVE_WP_FILE	modules/mavproxy_misseditor/me_event.py	/^MEE_SAVE_WP_FILE = 8$/;"	v
+MEE_SET_LOIT_RAD	modules/mavproxy_misseditor/me_event.py	/^MEE_SET_LOIT_RAD = 10$/;"	v
+MEE_SET_WP_DEFAULT_ALT	modules/mavproxy_misseditor/me_event.py	/^MEE_SET_WP_DEFAULT_ALT = 11$/;"	v
+MEE_SET_WP_RAD	modules/mavproxy_misseditor/me_event.py	/^MEE_SET_WP_RAD = 9$/;"	v
+MEE_TIME_TO_QUIT	modules/mavproxy_misseditor/me_event.py	/^MEE_TIME_TO_QUIT = 2$/;"	v
+MEE_WRITE_WPS	modules/mavproxy_misseditor/me_event.py	/^MEE_WRITE_WPS = 1$/;"	v
+MEE_WRITE_WP_NUM	modules/mavproxy_misseditor/me_event.py	/^MEE_WRITE_WP_NUM = 6$/;"	v
+MEGE_ADD_MISS_TABLE_ROWS	modules/mavproxy_misseditor/me_event.py	/^MEGE_ADD_MISS_TABLE_ROWS = 1$/;"	v
+MEGE_CLEAR_MISS_TABLE	modules/mavproxy_misseditor/me_event.py	/^MEGE_CLEAR_MISS_TABLE = 0$/;"	v
+MEGE_SET_LAST_MAP_CLICK_POS	modules/mavproxy_misseditor/me_event.py	/^MEGE_SET_LAST_MAP_CLICK_POS = 6$/;"	v
+MEGE_SET_LOIT_RAD	modules/mavproxy_misseditor/me_event.py	/^MEGE_SET_LOIT_RAD = 4$/;"	v
+MEGE_SET_MISS_ITEM	modules/mavproxy_misseditor/me_event.py	/^MEGE_SET_MISS_ITEM = 2$/;"	v
+MEGE_SET_WP_DEFAULT_ALT	modules/mavproxy_misseditor/me_event.py	/^MEGE_SET_WP_DEFAULT_ALT = 5$/;"	v
+MEGE_SET_WP_RAD	modules/mavproxy_misseditor/me_event.py	/^MEGE_SET_WP_RAD = 3$/;"	v
+MEState	tools/MAVExplorer.py	/^class MEState(object):$/;"	c
+MEStatus	tools/MAVExplorer.py	/^class MEStatus(object):$/;"	c
+ME_ALT_COL	modules/mavproxy_misseditor/missionEditorFrame.py	/^ME_ALT_COL = 7$/;"	v
+ME_COMMAND_COL	modules/mavproxy_misseditor/missionEditorFrame.py	/^ME_COMMAND_COL = 0$/;"	v
+ME_DELETE_COL	modules/mavproxy_misseditor/missionEditorFrame.py	/^ME_DELETE_COL = 9$/;"	v
+ME_DOWN_COL	modules/mavproxy_misseditor/missionEditorFrame.py	/^ME_DOWN_COL = 11$/;"	v
+ME_FRAME_COL	modules/mavproxy_misseditor/missionEditorFrame.py	/^ME_FRAME_COL = 8$/;"	v
+ME_LAT_COL	modules/mavproxy_misseditor/missionEditorFrame.py	/^ME_LAT_COL = 5 $/;"	v
+ME_LON_COL	modules/mavproxy_misseditor/missionEditorFrame.py	/^ME_LON_COL = 6$/;"	v
+ME_P1_COL	modules/mavproxy_misseditor/missionEditorFrame.py	/^ME_P1_COL = 1$/;"	v
+ME_P2_COL	modules/mavproxy_misseditor/missionEditorFrame.py	/^ME_P2_COL = 2$/;"	v
+ME_P3_COL	modules/mavproxy_misseditor/missionEditorFrame.py	/^ME_P3_COL = 3$/;"	v
+ME_P4_COL	modules/mavproxy_misseditor/missionEditorFrame.py	/^ME_P4_COL = 4$/;"	v
+ME_UP_COL	modules/mavproxy_misseditor/missionEditorFrame.py	/^ME_UP_COL = 10$/;"	v
+MM.BingProvider	modules/mavproxy_mmap/mmap_app/bing.js	/^}$/;"	c
+MM.BlueMarbleProvider	modules/mavproxy_mmap/mmap_app/bluemarble.js	/^MM.BlueMarbleProvider = function() {$/;"	f
+MM.CallbackManager	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.Coordinate	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.DoubleClickHandler	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.DoubleClickHandler	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.DragHandler	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.DragHandler	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.Extent	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.Extent.fromArray	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.Extent.fromString	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.Hash	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    })();$/;"	c
+MM.Layer	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.LinearProjection	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.LinearProjection	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.Location	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.Location.bearing	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.Location.distance	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.Location.interpolate	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.Map	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.MapProvider	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.extend(MM.MercatorProjection, MM.Projection);$/;"	f
+MM.MapProvider	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.MercatorProjection	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.extend(MM.LinearProjection, MM.Projection);$/;"	f
+MM.MercatorProjection	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.MouseHandler	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.MouseHandler	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.MouseWheelHandler	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.MouseWheelHandler	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.Point	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.Point.distance	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.Point.interpolate	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.Projection	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.RequestManager	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.TemplatedLayer	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.extend(MM.TemplatedMapProvider, MM.MapProvider);$/;"	f
+MM.TemplatedMapProvider	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.TemplatedMapProvider	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.TouchHandler	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.TouchHandler	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.Transformation	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	c
+MM.addEvent	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.bind	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.cancelEvent	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.coerceLayer	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.deriveTransformation	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.getFrame	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.getMousePoint	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.getStyle	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.linearSolution	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.mapByCenterZoom	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.mapByExtent	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MM.matrixString	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    })(['transformProperty', 'WebkitTransform', 'OTransform', 'MozTransform', 'msTransform']);$/;"	f
+MM.moveElement	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    })(this); \/\/ use this for node.js global$/;"	f
+MM.removeEvent	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    };$/;"	f
+MMapModule	modules/mavproxy_mmap/__init__.py	/^class MMapModule(mp_module.MPModule):$/;"	c
+MPImage	modules/lib/mp_image.py	/^class MPImage():$/;"	c
+MPImageBrightness	modules/lib/mp_image.py	/^class MPImageBrightness:$/;"	c
+MPImageData	modules/lib/mp_image.py	/^class MPImageData:$/;"	c
+MPImageFitToWindow	modules/lib/mp_image.py	/^class MPImageFitToWindow:$/;"	c
+MPImageFrame	modules/lib/mp_image.py	/^class MPImageFrame(wx.Frame):$/;"	c
+MPImageFullSize	modules/lib/mp_image.py	/^class MPImageFullSize:$/;"	c
+MPImageMenu	modules/lib/mp_image.py	/^class MPImageMenu:$/;"	c
+MPImageNewSize	modules/lib/mp_image.py	/^class MPImageNewSize:$/;"	c
+MPImagePanel	modules/lib/mp_image.py	/^class MPImagePanel(wx.Panel):$/;"	c
+MPImagePopupMenu	modules/lib/mp_image.py	/^class MPImagePopupMenu:$/;"	c
+MPImageTitle	modules/lib/mp_image.py	/^class MPImageTitle:$/;"	c
+MPMenuCallFileDialog	modules/lib/mp_menu.py	/^class MPMenuCallFileDialog(object):$/;"	c
+MPMenuCallTextDialog	modules/lib/mp_menu.py	/^class MPMenuCallTextDialog(object):$/;"	c
+MPMenuCheckbox	modules/lib/mp_menu.py	/^class MPMenuCheckbox(MPMenuItem):$/;"	c
+MPMenuChildMessageDialog	modules/lib/mp_menu.py	/^class MPMenuChildMessageDialog(object):$/;"	c
+MPMenuGeneric	modules/lib/mp_menu.py	/^class MPMenuGeneric(object):$/;"	c
+MPMenuItem	modules/lib/mp_menu.py	/^class MPMenuItem(MPMenuGeneric):$/;"	c
+MPMenuOpenWeblink	modules/lib/mp_menu.py	/^class MPMenuOpenWeblink(object):$/;"	c
+MPMenuRadio	modules/lib/mp_menu.py	/^class MPMenuRadio(MPMenuItem):$/;"	c
+MPMenuSeparator	modules/lib/mp_menu.py	/^class MPMenuSeparator(MPMenuGeneric):$/;"	c
+MPMenuSubMenu	modules/lib/mp_menu.py	/^class MPMenuSubMenu(MPMenuGeneric):$/;"	c
+MPMenuTop	modules/lib/mp_menu.py	/^class MPMenuTop(object):$/;"	c
+MPModule	modules/lib/mp_module.py	/^class MPModule(object):$/;"	c
+MPSetting	modules/lib/mp_settings.py	/^class MPSetting:$/;"	c
+MPSettings	modules/lib/mp_settings.py	/^class MPSettings(object):$/;"	c
+MPSlipMap	modules/mavproxy_map/mp_slipmap.py	/^class MPSlipMap():$/;"	c
+MPSlipMapFrame	modules/mavproxy_map/mp_slipmap_ui.py	/^class MPSlipMapFrame(wx.Frame):$/;"	c
+MPSlipMapPanel	modules/mavproxy_map/mp_slipmap_ui.py	/^class MPSlipMapPanel(wx.Panel):$/;"	c
+MPState	mavproxy.py	/^class MPState(object):$/;"	c
+MPStatus	mavproxy.py	/^class MPStatus(object):$/;"	c
+MPTile	modules/mavproxy_map/mp_tile.py	/^class MPTile:$/;"	c
+MapModule	modules/mavproxy_map/__init__.py	/^class MapModule(mp_module.MPModule):$/;"	c
+MarkerClip	modules/mavproxy_mmap/mmap_app/index.html	/^function MarkerClip(map) {$/;"	f
+MavGraph	modules/lib/grapher.py	/^class MavGraph(object):$/;"	c
+MessageConsole	modules/lib/wxconsole.py	/^class MessageConsole(textconsole.SimpleConsole):$/;"	c
+MiscModule	modules/mavproxy_misc.py	/^class MiscModule(mp_module.MPModule):$/;"	c
+MissionEditorEvent	modules/mavproxy_misseditor/__init__.py	/^MissionEditorEvent = me_event.MissionEditorEvent$/;"	v
+MissionEditorEvent	modules/mavproxy_misseditor/me_event.py	/^class MissionEditorEvent:        $/;"	c
+MissionEditorEvent	modules/mavproxy_misseditor/missionEditorFrame.py	/^MissionEditorEvent = me_event.MissionEditorEvent$/;"	v
+MissionEditorEventThread	modules/mavproxy_misseditor/__init__.py	/^class MissionEditorEventThread(threading.Thread):$/;"	c
+MissionEditorFrame	modules/mavproxy_misseditor/missionEditorFrame.py	/^class MissionEditorFrame(wx.Frame):$/;"	c
+MissionEditorModule	modules/mavproxy_misseditor/__init__.py	/^class MissionEditorModule(mp_module.MPModule):$/;"	c
+ModeModule	modules/mavproxy_mode.py	/^class ModeModule(mp_module.MPModule):$/;"	c
+N1	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    N1 = a\/sqrt(1-eccSquared*sin(phi1Rad)*sin(phi1Rad))$/;"	v
+NSHModule	modules/mavproxy_nsh.py	/^class NSHModule(mp_module.MPModule):$/;"	c
+NoSuchTileError	modules/mavproxy_map/srtm.py	/^class NoSuchTileError(Exception):$/;"	c
+OnCancel	modules/lib/wxgrapheditor.py	/^    def OnCancel(self, event):$/;"	m	class:GraphDialog
+OnSave	modules/lib/wxgrapheditor.py	/^    def OnSave(self, event):$/;"	m	class:GraphDialog
+OnSelectPath	modules/lib/optparse_gui/__init__.py	/^    def OnSelectPath(self, event):$/;"	m	class:OptparseDialog
+OnTest	modules/lib/wxgrapheditor.py	/^    def OnTest(self, event):$/;"	m	class:GraphDialog
+Option	modules/lib/optparse_gui/__init__.py	/^class Option (optparse.Option):$/;"	c
+OptionParser	modules/lib/optparse_gui/__init__.py	/^class OptionParser( optparse.OptionParser ):$/;"	c
+OptparseDialog	modules/lib/optparse_gui/__init__.py	/^class OptparseDialog( wx.Dialog ):$/;"	c
+OutputModule	modules/mavproxy_output.py	/^class OutputModule(mp_module.MPModule):$/;"	c
+PILTowx	modules/lib/mp_util.py	/^def PILTowx(pimg):$/;"	f
+PPPModule	modules/mavproxy_ppp.py	/^class PPPModule(mp_module.MPModule):$/;"	c
+ParamModule	modules/mavproxy_param.py	/^class ParamModule(mp_module.MPModule):$/;"	c
+ParamState	modules/mavproxy_param.py	/^class ParamState:$/;"	c
+Point	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^      module.exports = {$/;"	p	class:module.exports
+R1	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    R1 = a*(1-eccSquared)\/pow(1-eccSquared*sin(phi1Rad)*sin(phi1Rad), 1.5)$/;"	v
+RCModule	modules/mavproxy_rc.py	/^class RCModule(mp_module.MPModule):$/;"	c
+RCSetupModule	modules/mavproxy_rcsetup.py	/^class RCSetupModule(mp_module.MPModule):$/;"	c
+RallyModule	modules/mavproxy_rally.py	/^class RallyModule(mp_module.MPModule):$/;"	c
+RelayModule	modules/mavproxy_relay.py	/^class RelayModule(mp_module.MPModule):$/;"	c
+RepeatCommand	modules/mavproxy_misc.py	/^class RepeatCommand(object):$/;"	c
+SRTMDownloader	modules/mavproxy_map/srtm.py	/^class SRTMDownloader():$/;"	c
+SRTMOceanTile	modules/mavproxy_map/srtm.py	/^class SRTMOceanTile(SRTMTile):$/;"	c
+SRTMTile	modules/mavproxy_map/srtm.py	/^class SRTMTile:$/;"	c
+SSDPResponse	modules/mavproxy_smartcamera/ssdp.py	/^class SSDPResponse(object):$/;"	c
+SUPER	modules/lib/optparse_gui/__init__.py	/^    SUPER = optparse.Option$/;"	v	class:Option
+SUPER	modules/lib/optparse_gui/__init__.py	/^    SUPER = optparse.OptionParser$/;"	v	class:OptionParser
+SensorsModule	modules/mavproxy_sensors.py	/^class SensorsModule(mp_module.MPModule):$/;"	c
+SerialModule	modules/mavproxy_serial.py	/^class SerialModule(mp_module.MPModule):$/;"	c
+Server	modules/mavproxy_mmap/mmap_server.py	/^class Server(BaseHTTPServer.HTTPServer):$/;"	c
+SettingsDlg	modules/lib/wxsettings_ui.py	/^class SettingsDlg(TabbedDialog):$/;"	c
+SigningModule	modules/mavproxy_signing.py	/^class SigningModule(mp_module.MPModule):$/;"	c
+SimpleConsole	modules/lib/textconsole.py	/^class SimpleConsole():$/;"	c
+SlipBrightness	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipBrightness:$/;"	c
+SlipCenter	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipCenter:$/;"	c
+SlipCircle	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipCircle(SlipObject):$/;"	c
+SlipClearLayer	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipClearLayer:$/;"	c
+SlipDefaultPopup	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipDefaultPopup:$/;"	c
+SlipEvent	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipEvent:$/;"	c
+SlipGrid	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipGrid(SlipObject):$/;"	c
+SlipHideObject	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipHideObject:$/;"	c
+SlipIcon	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipIcon(SlipThumbnail):$/;"	c
+SlipInfoImage	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipInfoImage(SlipInformation):$/;"	c
+SlipInfoText	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipInfoText(SlipInformation):$/;"	c
+SlipInformation	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipInformation:$/;"	c
+SlipKeyEvent	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipKeyEvent(SlipEvent):$/;"	c
+SlipLabel	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipLabel(SlipObject):$/;"	c
+SlipMenuEvent	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipMenuEvent(SlipEvent):$/;"	c
+SlipMouseEvent	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipMouseEvent(SlipEvent):$/;"	c
+SlipObject	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipObject:$/;"	c
+SlipObjectSelection	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipObjectSelection:$/;"	c
+SlipPolygon	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipPolygon(SlipObject):$/;"	c
+SlipPosition	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipPosition:$/;"	c
+SlipRemoveObject	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipRemoveObject:$/;"	c
+SlipThumbnail	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipThumbnail(SlipObject):$/;"	c
+SlipTrail	modules/mavproxy_map/mp_slipmap_util.py	/^class SlipTrail:$/;"	c
+SmartCamera	modules/mavproxy_smartcamera/sc_main.py	/^class SmartCamera(object):$/;"	c
+SmartCameraConfig	modules/mavproxy_smartcamera/sc_config.py	/^class SmartCameraConfig(object):$/;"	c
+SmartCameraModule	modules/mavproxy_smartcamera/__init__.py	/^class SmartCameraModule(mp_module.MPModule):$/;"	c
+SmartCameraVideo	modules/mavproxy_smartcamera/sc_video.py	/^class SmartCameraVideo:$/;"	c
+SmartCameraWebCam	modules/mavproxy_smartcamera/sc_webcam.py	/^class SmartCameraWebCam:$/;"	c
+SmartCamera_SonyQX	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^class SmartCamera_SonyQX():$/;"	c
+SpeechModule	modules/mavproxy_speech.py	/^class SpeechModule(mp_module.MPModule):$/;"	c
+T1	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    T1 = tan(phi1Rad)*tan(phi1Rad)$/;"	v
+TILES_HEIGHT	modules/mavproxy_map/mp_tile.py	/^TILES_HEIGHT = 256$/;"	v
+TILES_WIDTH	modules/mavproxy_map/mp_tile.py	/^TILES_WIDTH = 256$/;"	v
+TILE_SERVICES	modules/mavproxy_map/mp_tile.py	/^TILE_SERVICES = {$/;"	v
+TITLE	modules/lib/ANUGA/geo_reference.py	/^TITLE = '#geo reference' + "\\n" # this title is referred to in the test format$/;"	v
+TYPES	modules/lib/optparse_gui/__init__.py	/^    TYPES = SUPER.TYPES + ('file', 'directory')$/;"	v	class:Option
+TabbedDialog	modules/lib/wxsettings_ui.py	/^class TabbedDialog(wx.Dialog):$/;"	c
+TerrainModule	modules/mavproxy_terrain.py	/^class TerrainModule(mp_module.MPModule):$/;"	c
+TestModule	modules/mavproxy_test.py	/^class TestModule(mp_module.MPModule):$/;"	c
+TestState	modules/mavproxy_test.py	/^TestState = enum(INIT=1, FBWA=2, AUTO=3)$/;"	v
+Text	modules/lib/wxconsole_util.py	/^class Text():$/;"	c
+TileException	modules/mavproxy_map/mp_tile.py	/^class TileException(Exception):$/;"	c
+TileInfo	modules/mavproxy_map/mp_tile.py	/^class TileInfo:$/;"	c
+TileInfoScaled	modules/mavproxy_map/mp_tile.py	/^class TileInfoScaled(TileInfo):$/;"	c
+TileServiceInfo	modules/mavproxy_map/mp_tile.py	/^class TileServiceInfo:$/;"	c
+TopMenu	tools/MAVExplorer.py	/^TopMenu = None$/;"	v
+TrackerModule	modules/mavproxy_tracker.py	/^class TrackerModule(mp_module.MPModule):$/;"	c
+TrailPlotter	modules/mavproxy_mmap/mmap_app/index.html	/^function TrailPlotter(marker_clip) {$/;"	f
+TuneoptModule	modules/mavproxy_tuneopt.py	/^class TuneoptModule(mp_module.MPModule):$/;"	c
+UTMGrid	modules/lib/mp_util.py	/^class UTMGrid:$/;"	c
+UTMtoLL	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^def UTMtoLL(northing, easting, zone, isSouthernHemisphere=True,$/;"	f
+UserCancelledError	modules/lib/optparse_gui/__init__.py	/^class UserCancelledError( Exception ):$/;"	c
+Value	modules/lib/wxconsole_util.py	/^class Value():$/;"	c
+WPModule	modules/mavproxy_wp.py	/^class WPModule(mp_module.MPModule):$/;"	c
+WXSettings	modules/lib/wxsettings.py	/^class WXSettings(object):$/;"	c
+WrongTileError	modules/mavproxy_map/srtm.py	/^class WrongTileError(Exception):$/;"	c
+ZoneNumber	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    ZoneNumber = int(zone)$/;"	v
+_EquatorialRadius	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^_EquatorialRadius = 2$/;"	v
+_FakeSocket	modules/mavproxy_smartcamera/ssdp.py	/^    class _FakeSocket(StringIO.StringIO):$/;"	c	class:SSDPResponse
+_UTMLetterDesignator	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^def _UTMLetterDesignator(Lat):$/;"	f
+__boAddGeotagToLog	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def __boAddGeotagToLog(self, sImageFileName):$/;"	m	class:SmartCamera_SonyQX	file:
+__cmp__	modules/lib/ANUGA/geo_reference.py	/^    def __cmp__(self, other):$/;"	m	class:Geo_reference	file:
+__do_layout	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def __do_layout(self):$/;"	m	class:MissionEditorFrame	file:
+__geoRef_write	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def __geoRef_write(self, sImageFileName):$/;"	m	class:SmartCamera_SonyQX	file:
+__getattr__	modules/lib/mp_settings.py	/^    def __getattr__(self, name):$/;"	m	class:MPSettings	file:
+__getitem__	modules/mavproxy_map/mp_tile.py	/^	def __getitem__(self, a):$/;"	m	class:TileServiceInfo	file:
+__init__	mavproxy.py	/^    def __init__(self):$/;"	m	class:MAVFunctions
+__init__	mavproxy.py	/^    def __init__(self):$/;"	m	class:MPState
+__init__	mavproxy.py	/^    def __init__(self):$/;"	m	class:MPStatus
+__init__	modules/lib/ANUGA/geo_reference.py	/^    def __init__(self,$/;"	m	class:Geo_reference
+__init__	modules/lib/graphdefinition.py	/^    def __init__(self, name, expression, description, expressions, filename):$/;"	m	class:GraphDefinition
+__init__	modules/lib/grapher.py	/^    def __init__(self):$/;"	m	class:MavGraph
+__init__	modules/lib/live_graph.py	/^    def __init__(self,$/;"	m	class:LiveGraph
+__init__	modules/lib/live_graph_ui.py	/^    def __init__(self, state):$/;"	m	class:GraphFrame
+__init__	modules/lib/mavmemlog.py	/^    def __init__(self, mav, progress_callback=None):$/;"	m	class:mavmemlog
+__init__	modules/lib/mp_checklist.py	/^    def __init__(self, name, state):$/;"	m	class:CheckItem
+__init__	modules/lib/mp_checklist.py	/^    def __init__(self, state, title):$/;"	m	class:ChecklistFrame
+__init__	modules/lib/mp_checklist.py	/^    def __init__(self, title='MAVProxy: Checklist'):$/;"	m	class:CheckUI
+__init__	modules/lib/mp_image.py	/^    def __init__(self):$/;"	m	class:MPImageFitToWindow
+__init__	modules/lib/mp_image.py	/^    def __init__(self):$/;"	m	class:MPImageFullSize
+__init__	modules/lib/mp_image.py	/^    def __init__(self, brightness):$/;"	m	class:MPImageBrightness
+__init__	modules/lib/mp_image.py	/^    def __init__(self, img):$/;"	m	class:MPImageData
+__init__	modules/lib/mp_image.py	/^    def __init__(self, menu):$/;"	m	class:MPImageMenu
+__init__	modules/lib/mp_image.py	/^    def __init__(self, menu):$/;"	m	class:MPImagePopupMenu
+__init__	modules/lib/mp_image.py	/^    def __init__(self, parent, state):$/;"	m	class:MPImagePanel
+__init__	modules/lib/mp_image.py	/^    def __init__(self, size):$/;"	m	class:MPImageNewSize
+__init__	modules/lib/mp_image.py	/^    def __init__(self, state):$/;"	m	class:MPImageFrame
+__init__	modules/lib/mp_image.py	/^    def __init__(self, title):$/;"	m	class:MPImageTitle
+__init__	modules/lib/mp_image.py	/^    def __init__(self,$/;"	m	class:MPImage
+__init__	modules/lib/mp_menu.py	/^    def __init__(self):$/;"	m	class:MPMenuGeneric
+__init__	modules/lib/mp_menu.py	/^    def __init__(self):$/;"	m	class:MPMenuSeparator
+__init__	modules/lib/mp_menu.py	/^    def __init__(self, flags=None, title='Filename', wildcard='*.*'):$/;"	m	class:MPMenuCallFileDialog
+__init__	modules/lib/mp_menu.py	/^    def __init__(self, items):$/;"	m	class:MPMenuTop
+__init__	modules/lib/mp_menu.py	/^    def __init__(self, name, description='', returnkey=None, checked=False, handler=None):$/;"	m	class:MPMenuCheckbox
+__init__	modules/lib/mp_menu.py	/^    def __init__(self, name, description='', returnkey=None, handler=None):$/;"	m	class:MPMenuItem
+__init__	modules/lib/mp_menu.py	/^    def __init__(self, name, description='', returnkey=None, selected=None, items=[], handler=None):$/;"	m	class:MPMenuRadio
+__init__	modules/lib/mp_menu.py	/^    def __init__(self, name, items):$/;"	m	class:MPMenuSubMenu
+__init__	modules/lib/mp_menu.py	/^    def __init__(self, title='Enter Value', default=''):$/;"	m	class:MPMenuCallTextDialog
+__init__	modules/lib/mp_menu.py	/^    def __init__(self, title='Information', message='', font_size=18):$/;"	m	class:MPMenuChildMessageDialog
+__init__	modules/lib/mp_menu.py	/^    def __init__(self, url='www.google.com'):$/;"	m	class:MPMenuOpenWeblink
+__init__	modules/lib/mp_module.py	/^    def __init__(self, mpstate, name, description=None, public=False):$/;"	m	class:MPModule
+__init__	modules/lib/mp_settings.py	/^    def __init__(self, name, type, default, label=None, tab=None,$/;"	m	class:MPSetting
+__init__	modules/lib/mp_settings.py	/^    def __init__(self, vars, title='Settings'):$/;"	m	class:MPSettings
+__init__	modules/lib/mp_util.py	/^    def __init__(self, object):$/;"	m	class:object_container
+__init__	modules/lib/mp_util.py	/^    def __init__(self, zone, easting, northing, hemisphere='S'):$/;"	m	class:UTMGrid
+__init__	modules/lib/mp_widgets.py	/^    def __init__(self, parent, img):$/;"	m	class:ImagePanel
+__init__	modules/lib/multiprocessing_queue.py	/^        def __init__(self, *args, **kwargs):$/;"	m	class:osxQueue
+__init__	modules/lib/optparse_gui/__init__.py	/^    def __init__( self, *args, **kwargs ):$/;"	m	class:OptionParser
+__init__	modules/lib/optparse_gui/__init__.py	/^    def __init__($/;"	m	class:OptparseDialog
+__init__	modules/lib/rline.py	/^        def __init__(self):$/;"	m	class:.mystate
+__init__	modules/lib/rline.py	/^    def __init__(self, prompt, mpstate):$/;"	m	class:rline
+__init__	modules/lib/textconsole.py	/^    def __init__(self):$/;"	m	class:SimpleConsole
+__init__	modules/lib/wxconsole.py	/^    def __init__(self,$/;"	m	class:MessageConsole
+__init__	modules/lib/wxconsole_ui.py	/^    def __init__(self, state, title):$/;"	m	class:ConsoleFrame
+__init__	modules/lib/wxconsole_util.py	/^    def __init__(self, name, text, row=0, fg='black', bg='white'):$/;"	m	class:Value
+__init__	modules/lib/wxconsole_util.py	/^    def __init__(self, text, fg='black', bg='white'):$/;"	m	class:Text
+__init__	modules/lib/wxgrapheditor.py	/^    def __init__(self, title, graphdef, callback):$/;"	m	class:GraphDialog
+__init__	modules/lib/wxsettings.py	/^    def __init__(self, settings):$/;"	m	class:WXSettings
+__init__	modules/lib/wxsettings_ui.py	/^    def __init__(self, settings):$/;"	m	class:SettingsDlg
+__init__	modules/lib/wxsettings_ui.py	/^    def __init__(self, tab_names, title='Title', size=wx.DefaultSize):$/;"	m	class:TabbedDialog
+__init__	modules/mavproxy_DGPS.py	/^    def __init__(self, mpstate):$/;"	m	class:DGPSModule
+__init__	modules/mavproxy_HIL.py	/^    def __init__(self, mpstate):$/;"	m	class:HILModule
+__init__	modules/mavproxy_adsb.py	/^    def __init__(self, id, state):$/;"	m	class:ADSBVehicle
+__init__	modules/mavproxy_adsb.py	/^    def __init__(self, mpstate):$/;"	m	class:ADSBModule
+__init__	modules/mavproxy_antenna.py	/^    def __init__(self, mpstate):$/;"	m	class:AntennaModule
+__init__	modules/mavproxy_arm.py	/^    def __init__(self, mpstate):$/;"	m	class:ArmModule
+__init__	modules/mavproxy_auxopt.py	/^    def __init__(self, mpstate):$/;"	m	class:AuxoptModule
+__init__	modules/mavproxy_battery.py	/^    def __init__(self, mpstate):$/;"	m	class:BatteryModule
+__init__	modules/mavproxy_calibration.py	/^    def __init__(self, mpstate):$/;"	m	class:CalibrationModule
+__init__	modules/mavproxy_cameraview.py	/^    def __init__(self, mpstate):$/;"	m	class:CameraViewModule
+__init__	modules/mavproxy_checklist.py	/^    def __init__(self, mpstate):$/;"	m	class:ChecklistModule
+__init__	modules/mavproxy_cmdlong.py	/^    def __init__(self, mpstate):$/;"	m	class:CmdlongModule
+__init__	modules/mavproxy_console.py	/^    def __init__(self, mpstate):$/;"	m	class:ConsoleModule
+__init__	modules/mavproxy_dataflash_logger.py	/^    def __init__(self, mpstate):$/;"	m	class:dataflash_logger
+__init__	modules/mavproxy_fence.py	/^    def __init__(self, mpstate):$/;"	m	class:FenceModule
+__init__	modules/mavproxy_gasheli.py	/^    def __init__(self, mpstate):$/;"	m	class:GasHeliModule
+__init__	modules/mavproxy_gimbal.py	/^    def __init__(self, mpstate):$/;"	m	class:GimbalModule
+__init__	modules/mavproxy_gopro.py	/^    def __init__(self, mpstate):$/;"	m	class:GoProModule
+__init__	modules/mavproxy_graph.py	/^    def __init__(self, mpstate):$/;"	m	class:GraphModule
+__init__	modules/mavproxy_graph.py	/^    def __init__(self, state, fields):$/;"	m	class:Graph
+__init__	modules/mavproxy_help.py	/^    def __init__(self, mpstate):$/;"	m	class:HelpModule
+__init__	modules/mavproxy_joystick.py	/^    def __init__(self, mpstate):$/;"	m	class:JSModule
+__init__	modules/mavproxy_link.py	/^    def __init__(self, mpstate):$/;"	m	class:LinkModule
+__init__	modules/mavproxy_log.py	/^    def __init__(self, mpstate):$/;"	m	class:LogModule
+__init__	modules/mavproxy_map/GAreader.py	/^    def __init__(self):$/;"	m	class:ERMap
+__init__	modules/mavproxy_map/__init__.py	/^    def __init__(self, mpstate):$/;"	m	class:MapModule
+__init__	modules/mavproxy_map/mp_elevation.py	/^    def __init__(self, database='srtm', offline=0, debug=False):$/;"	m	class:ElevationModel
+__init__	modules/mavproxy_map/mp_slipmap.py	/^    def __init__(self,$/;"	m	class:MPSlipMap
+__init__	modules/mavproxy_map/mp_slipmap_ui.py	/^    def __init__(self, parent, state):$/;"	m	class:MPSlipMapPanel
+__init__	modules/mavproxy_map/mp_slipmap_ui.py	/^    def __init__(self, state):$/;"	m	class:MPSlipMapFrame
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, brightness):$/;"	m	class:SlipBrightness
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, key):$/;"	m	class:SlipInformation
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, key):$/;"	m	class:SlipRemoveObject
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, key, hide):$/;"	m	class:SlipHideObject
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, key, img):$/;"	m	class:SlipInfoImage
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, key, latlon, img, layer=1, rotation=0,$/;"	m	class:SlipIcon
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, key, latlon, layer, img,$/;"	m	class:SlipThumbnail
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, key, latlon, layer=None, rotation=0):$/;"	m	class:SlipPosition
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, key, layer, colour, linewidth):$/;"	m	class:SlipGrid
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, key, layer, latlon, radius, color, linewidth, popup_menu=None):$/;"	m	class:SlipCircle
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, key, layer, popup_menu=None):$/;"	m	class:SlipObject
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, key, point, label, layer, colour):$/;"	m	class:SlipLabel
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, key, points, layer, colour, linewidth, popup_menu=None):$/;"	m	class:SlipPolygon
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, key, text):$/;"	m	class:SlipInfoText
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, latlon):$/;"	m	class:SlipCenter
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, latlon, event, selected):$/;"	m	class:SlipEvent
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, latlon, event, selected):$/;"	m	class:SlipKeyEvent
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, latlon, event, selected):$/;"	m	class:SlipMouseEvent
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, latlon, event, selected, menuitem):$/;"	m	class:SlipMenuEvent
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, layer):$/;"	m	class:SlipClearLayer
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, objkey, distance, layer, extra_info=None):$/;"	m	class:SlipObjectSelection
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, popup, combine=False):$/;"	m	class:SlipDefaultPopup
+__init__	modules/mavproxy_map/mp_slipmap_util.py	/^    def __init__(self, timestep=0.2, colour=(255,255,0), count=60, points=[]):$/;"	m	class:SlipTrail
+__init__	modules/mavproxy_map/mp_tile.py	/^	def __init__(self, cache_path=None, download=True, cache_size=500,$/;"	m	class:MPTile
+__init__	modules/mavproxy_map/mp_tile.py	/^	def __init__(self, msg):$/;"	m	class:TileException
+__init__	modules/mavproxy_map/mp_tile.py	/^	def __init__(self, tile, zoom, scale, src, dst, service):$/;"	m	class:TileInfoScaled
+__init__	modules/mavproxy_map/mp_tile.py	/^	def __init__(self, tile, zoom, service, offset=(0,0)):$/;"	m	class:TileInfo
+__init__	modules/mavproxy_map/mp_tile.py	/^	def __init__(self, x, y, zoom):$/;"	m	class:TileServiceInfo
+__init__	modules/mavproxy_map/srtm.py	/^    def __init__(self):$/;"	m	class:parseHTMLDirectoryListing
+__init__	modules/mavproxy_map/srtm.py	/^    def __init__(self, f, lat, lon):$/;"	m	class:SRTMTile
+__init__	modules/mavproxy_map/srtm.py	/^    def __init__(self, lat, lon):$/;"	m	class:InvalidTileError
+__init__	modules/mavproxy_map/srtm.py	/^    def __init__(self, lat, lon):$/;"	m	class:NoSuchTileError
+__init__	modules/mavproxy_map/srtm.py	/^    def __init__(self, lat, lon):$/;"	m	class:SRTMOceanTile
+__init__	modules/mavproxy_map/srtm.py	/^    def __init__(self, server="firmware.ardupilot.org",$/;"	m	class:SRTMDownloader
+__init__	modules/mavproxy_map/srtm.py	/^    def __init__(self, tile_lat, tile_lon, req_lat, req_lon):$/;"	m	class:WrongTileError
+__init__	modules/mavproxy_misc.py	/^    def __init__(self, mpstate):$/;"	m	class:MiscModule
+__init__	modules/mavproxy_misc.py	/^    def __init__(self, period, cmd):$/;"	m	class:RepeatCommand
+__init__	modules/mavproxy_misseditor/__init__.py	/^    def __init__(self, mp_misseditor, q, l):$/;"	m	class:MissionEditorEventThread
+__init__	modules/mavproxy_misseditor/__init__.py	/^    def __init__(self, mpstate):$/;"	m	class:MissionEditorModule
+__init__	modules/mavproxy_misseditor/button_renderer.py	/^    def __init__(self,label,width=75,height=25):$/;"	m	class:ButtonRenderer
+__init__	modules/mavproxy_misseditor/me_event.py	/^    def __init__(self, type, **kwargs):$/;"	m	class:MissionEditorEvent
+__init__	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def __init__(self, *args, **kwds):$/;"	m	class:MissionEditorFrame
+__init__	modules/mavproxy_mmap/__init__.py	/^    def __init__(self, mpstate):$/;"	m	class:MMapModule
+__init__	modules/mavproxy_mmap/mmap_server.py	/^  def __init__(self, handler, address='', port=9999, module_state=None):$/;"	m	class:Server
+__init__	modules/mavproxy_mode.py	/^    def __init__(self, mpstate):$/;"	m	class:ModeModule
+__init__	modules/mavproxy_nsh.py	/^    def __init__(self, mpstate):$/;"	m	class:NSHModule
+__init__	modules/mavproxy_output.py	/^    def __init__(self, mpstate):$/;"	m	class:OutputModule
+__init__	modules/mavproxy_param.py	/^    def __init__(self, mav_param, logdir, vehicle_name, parm_file):$/;"	m	class:ParamState
+__init__	modules/mavproxy_param.py	/^    def __init__(self, mpstate):$/;"	m	class:ParamModule
+__init__	modules/mavproxy_ppp.py	/^    def __init__(self, mpstate):$/;"	m	class:PPPModule
+__init__	modules/mavproxy_rally.py	/^    def __init__(self, mpstate):$/;"	m	class:RallyModule
+__init__	modules/mavproxy_rc.py	/^    def __init__(self, mpstate):$/;"	m	class:RCModule
+__init__	modules/mavproxy_rcsetup.py	/^    def __init__(self, mpstate):$/;"	m	class:RCSetupModule
+__init__	modules/mavproxy_relay.py	/^    def __init__(self, mpstate):$/;"	m	class:RelayModule
+__init__	modules/mavproxy_sensors.py	/^    def __init__(self):$/;"	m	class:sensors_report
+__init__	modules/mavproxy_sensors.py	/^    def __init__(self, mpstate):$/;"	m	class:SensorsModule
+__init__	modules/mavproxy_serial.py	/^    def __init__(self, mpstate):$/;"	m	class:SerialModule
+__init__	modules/mavproxy_signing.py	/^    def __init__(self, mpstate):$/;"	m	class:SigningModule
+__init__	modules/mavproxy_smartcamera/__init__.py	/^    def __init__(self, mpstate):$/;"	m	class:SmartCameraModule
+__init__	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def __init__(self, u8Instance, sNetInterface):$/;"	m	class:SmartCamera_SonyQX
+__init__	modules/mavproxy_smartcamera/sc_config.py	/^    def __init__(self):$/;"	m	class:SmartCameraConfig
+__init__	modules/mavproxy_smartcamera/sc_main.py	/^    def __init__(self, use_api):$/;"	m	class:SmartCamera
+__init__	modules/mavproxy_smartcamera/sc_video.py	/^    def __init__(self):$/;"	m	class:SmartCameraVideo
+__init__	modules/mavproxy_smartcamera/sc_webcam.py	/^    def __init__(self, instance):$/;"	m	class:SmartCameraWebCam
+__init__	modules/mavproxy_smartcamera/ssdp.py	/^    def __init__(self, response):$/;"	m	class:SSDPResponse
+__init__	modules/mavproxy_speech.py	/^    def __init__(self, mpstate):$/;"	m	class:SpeechModule
+__init__	modules/mavproxy_terrain.py	/^    def __init__(self, mpstate):$/;"	m	class:TerrainModule
+__init__	modules/mavproxy_test.py	/^    def __init__(self, mpstate):$/;"	m	class:TestModule
+__init__	modules/mavproxy_tracker.py	/^    def __init__(self, mpstate):$/;"	m	class:TrackerModule
+__init__	modules/mavproxy_tuneopt.py	/^    def __init__(self, mpstate):$/;"	m	class:TuneoptModule
+__init__	modules/mavproxy_wp.py	/^    def __init__(self, mpstate):$/;"	m	class:WPModule
+__init__	tools/MAVExplorer.py	/^    def __init__(self):$/;"	m	class:MEState
+__init__	tools/MAVExplorer.py	/^    def __init__(self):$/;"	m	class:MEStatus
+__init__	tools/mavflightview.py	/^    def __init__(self):$/;"	m	class:mavflightview_options
+__openGeoTagLogFile	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def __openGeoTagLogFile(self):$/;"	m	class:SmartCamera_SonyQX	file:
+__repr__	modules/lib/ANUGA/geo_reference.py	/^    def __repr__(self):$/;"	m	class:Geo_reference	file:
+__repr__	modules/lib/mp_menu.py	/^    def __repr__(self):$/;"	m	class:MPMenuGeneric	file:
+__repr__	modules/mavproxy_smartcamera/ssdp.py	/^    def __repr__(self):$/;"	m	class:SSDPResponse	file:
+__revision__	modules/lib/optparse_gui/__init__.py	/^__revision__ = '$Id$'$/;"	v
+__sFindCameraURL	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def __sFindCameraURL(self, sInterface):$/;"	m	class:SmartCamera_SonyQX	file:
+__sFindInterfaceIPAddress	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def __sFindInterfaceIPAddress(self,sInterfaceName):$/;"	m	class:SmartCamera_SonyQX	file:
+__sMakeCall	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def __sMakeCall(self, sService, adictPayload):$/;"	m	class:SmartCamera_SonyQX	file:
+__sSimpleCall	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def __sSimpleCall(self, sMethod, sTarget="camera", adictParams=[], u8Id=1, sVersion="1.0"):$/;"	m	class:SmartCamera_SonyQX	file:
+__set_properties	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def __set_properties(self):$/;"	m	class:MissionEditorFrame	file:
+__setattr__	modules/lib/mp_settings.py	/^    def __setattr__(self, name, value):$/;"	m	class:MPSettings	file:
+__str__	modules/lib/mp_menu.py	/^    def __str__(self):$/;"	m	class:MPMenuCheckbox	file:
+__str__	modules/lib/mp_menu.py	/^    def __str__(self):$/;"	m	class:MPMenuGeneric	file:
+__str__	modules/lib/mp_menu.py	/^    def __str__(self):$/;"	m	class:MPMenuItem	file:
+__str__	modules/lib/mp_menu.py	/^    def __str__(self):$/;"	m	class:MPMenuRadio	file:
+__str__	modules/lib/mp_menu.py	/^    def __str__(self):$/;"	m	class:MPMenuSeparator	file:
+__str__	modules/lib/mp_menu.py	/^    def __str__(self):$/;"	m	class:MPMenuSubMenu	file:
+__str__	modules/lib/mp_util.py	/^    def __str__(self):$/;"	m	class:UTMGrid	file:
+__str__	modules/mavproxy_map/srtm.py	/^    def __str__(self):$/;"	m	class:InvalidTileError	file:
+__str__	modules/mavproxy_map/srtm.py	/^    def __str__(self):$/;"	m	class:NoSuchTileError	file:
+__str__	modules/mavproxy_map/srtm.py	/^    def __str__(self):$/;"	m	class:WrongTileError	file:
+__str__	modules/mavproxy_misc.py	/^    def __str__(self):$/;"	m	class:RepeatCommand	file:
+__str__	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def __str__(self):$/;"	m	class:SmartCamera_SonyQX	file:
+__str__	modules/mavproxy_smartcamera/sc_video.py	/^    def __str__(self):$/;"	m	class:SmartCameraVideo	file:
+__str__	modules/mavproxy_smartcamera/sc_webcam.py	/^    def __str__(self):$/;"	m	class:SmartCameraWebCam	file:
+__vCmdCamTrigger	modules/mavproxy_smartcamera/__init__.py	/^    def __vCmdCamTrigger(self, args):$/;"	m	class:SmartCameraModule	file:
+__vCmdCamZoomIn	modules/mavproxy_smartcamera/__init__.py	/^    def __vCmdCamZoomIn(self):$/;"	m	class:SmartCameraModule	file:
+__vCmdCamZoomOut	modules/mavproxy_smartcamera/__init__.py	/^    def __vCmdCamZoomOut(self):$/;"	m	class:SmartCameraModule	file:
+__vCmdConnectCameras	modules/mavproxy_smartcamera/__init__.py	/^    def __vCmdConnectCameras(self, args):$/;"	m	class:SmartCameraModule	file:
+__vCmdSetCamAperture	modules/mavproxy_smartcamera/__init__.py	/^    def __vCmdSetCamAperture(self, args):$/;"	m	class:SmartCameraModule	file:
+__vCmdSetCamExposureMode	modules/mavproxy_smartcamera/__init__.py	/^    def __vCmdSetCamExposureMode(self, args):$/;"	m	class:SmartCameraModule	file:
+__vCmdSetCamISO	modules/mavproxy_smartcamera/__init__.py	/^    def __vCmdSetCamISO(self, args):$/;"	m	class:SmartCameraModule	file:
+__vCmdSetCamShutterSpeed	modules/mavproxy_smartcamera/__init__.py	/^    def __vCmdSetCamShutterSpeed(self, args):$/;"	m	class:SmartCameraModule	file:
+__vDecodeDIGICAMConfigure	modules/mavproxy_smartcamera/__init__.py	/^    def __vDecodeDIGICAMConfigure(self, mCommand_Long):$/;"	m	class:SmartCameraModule	file:
+__vDecodeDIGICAMControl	modules/mavproxy_smartcamera/__init__.py	/^    def __vDecodeDIGICAMControl(self, mCommand_Long):$/;"	m	class:SmartCameraModule	file:
+__vRegisterCameras	modules/mavproxy_smartcamera/__init__.py	/^    def __vRegisterCameras(self):$/;"	m	class:SmartCameraModule	file:
+__vRegisterQXCamera	modules/mavproxy_smartcamera/__init__.py	/^    def __vRegisterQXCamera(self,u8CamNumber):$/;"	m	class:SmartCameraModule	file:
+__version__	modules/lib/optparse_gui/__init__.py	/^__version__ = 0.1$/;"	v
+__writeGeoRefToFile	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def __writeGeoRefToFile(self, sImageFileName1):$/;"	m	class:SmartCamera_SonyQX	file:
+_add_input	modules/lib/wxsettings_ui.py	/^    def _add_input(self, setting, ctrl, ctrl2=None, value=None):$/;"	m	class:TabbedDialog
+_append	modules/lib/mp_menu.py	/^    def _append(self, menu):$/;"	m	class:MPMenuCheckbox
+_append	modules/lib/mp_menu.py	/^    def _append(self, menu):$/;"	m	class:MPMenuGeneric
+_append	modules/lib/mp_menu.py	/^    def _append(self, menu):$/;"	m	class:MPMenuItem
+_append	modules/lib/mp_menu.py	/^    def _append(self, menu):$/;"	m	class:MPMenuRadio
+_append	modules/lib/mp_menu.py	/^    def _append(self, menu):$/;"	m	class:MPMenuSeparator
+_append	modules/lib/mp_menu.py	/^    def _append(self, menu):$/;"	m	class:MPMenuSubMenu
+_avg	modules/mavproxy_map/GAreader.py	/^    def _avg(value1, value2, weight):$/;"	m	class:ERMap
+_avg	modules/mavproxy_map/srtm.py	/^    def _avg(value1, value2, weight):$/;"	m	class:SRTMTile
+_dataflash_dir	modules/mavproxy_dataflash_logger.py	/^    def _dataflash_dir(self, mpstate):$/;"	m	class:dataflash_logger
+_deg2rad	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^_deg2rad = pi \/ 180.0$/;"	v
+_eccentricitySquared	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^_eccentricitySquared = 3$/;"	v
+_ellipsoid	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^_ellipsoid = [$/;"	v
+_getArgs	modules/lib/optparse_gui/__init__.py	/^    def _getArgs( self ):$/;"	m	class:OptparseDialog
+_getOptions	modules/lib/optparse_gui/__init__.py	/^    def _getOptions( self ):$/;"	m	class:OptparseDialog
+_loadComplete	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^                this._loadComplete = function(e) {$/;"	m	class:this
+_loadComplete	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	p	class:MM.RequestManager
+_parse_args	modules/lib/optparse_gui/__init__.py	/^    def _parse_args( self, q, args, values):$/;"	m	class:OptionParser
+_processQueue	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^                this._processQueue = function() {$/;"	m	class:this
+_rad2deg	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^_rad2deg = 180.0 \/ pi$/;"	v
+_redraw	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^                this._redraw = function() {$/;"	f
+_redraw	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^                this._redraw = function() {$/;"	m	class:this
+_redraw	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	p	class:MM.Map
+_redrawTimer	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	p	class:MM.Map
+_resize	modules/mavproxy_map/mp_slipmap_util.py	/^    def _resize(self):$/;"	m	class:SlipInfoText
+_tileComplete	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^                this._tileComplete = function(manager, tile) {$/;"	f
+_windowResize	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^                this._windowResize = function(event) {$/;"	m	class:this
+a	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    a = _ellipsoid[ReferenceEllipsoid][_EquatorialRadius]$/;"	v
+action	mavproxy.py	/^        action='append',$/;"	v
+activityPackets	modules/mavproxy_link.py	/^activityPackets = frozenset([ 'HEARTBEAT', 'GPS_RAW_INT', 'GPS_RAW', 'GLOBAL_POSITION_INT', 'SYS_STATUS' ])$/;"	v
+add	modules/lib/mp_menu.py	/^    def add(self, items):$/;"	m	class:MPMenuTop
+add	modules/lib/mp_menu.py	/^    def add(self, items, addto=None):$/;"	m	class:MPMenuSubMenu
+addCallback	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        callbackManager: null,$/;"	m	class:MM.RequestManager
+addCallback	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        callbacks: null,$/;"	m	class:MM.CallbackManager
+addCallback	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+addLayer	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+add_callback	modules/mavproxy_map/mp_slipmap.py	/^    def add_callback(self, callback):$/;"	m	class:MPSlipMap
+add_choice	modules/lib/wxsettings_ui.py	/^    def add_choice(self, setting, choices):$/;"	m	class:TabbedDialog
+add_command	modules/lib/mp_module.py	/^    def add_command(self, name, callback, description, completions=None):$/;"	m	class:MPModule
+add_completion_function	modules/lib/mp_module.py	/^    def add_completion_function(self, name, callback):$/;"	m	class:MPModule
+add_data	modules/lib/grapher.py	/^    def add_data(self, t, msg, vars, flightmode):$/;"	m	class:MavGraph
+add_field	modules/lib/grapher.py	/^    def add_field(self, field):$/;"	m	class:MavGraph
+add_floatspin	modules/lib/wxsettings_ui.py	/^    def add_floatspin(self, setting):$/;"	m	class:TabbedDialog
+add_history	modules/lib/rline.py	/^    def add_history(self, line):$/;"	m	class:rline
+add_input	mavproxy.py	/^def add_input(cmd, immediate=False):$/;"	f
+add_intspin	modules/lib/wxsettings_ui.py	/^    def add_intspin(self, setting):$/;"	m	class:TabbedDialog
+add_mav	modules/lib/grapher.py	/^    def add_mav(self, mav):$/;"	m	class:MavGraph
+add_mavlink_packet	modules/mavproxy_graph.py	/^    def add_mavlink_packet(self, msg):$/;"	m	class:Graph
+add_menu	modules/mavproxy_console.py	/^    def add_menu(self, menu):$/;"	m	class:ConsoleModule
+add_menu	modules/mavproxy_map/__init__.py	/^    def add_menu(self, menu):$/;"	m	class:MapModule
+add_object	modules/mavproxy_map/mp_slipmap.py	/^    def add_object(self, obj):$/;"	m	class:MPSlipMap
+add_object	modules/mavproxy_map/mp_slipmap_ui.py	/^    def add_object(self, obj):$/;"	m	class:MPSlipMapFrame
+add_text	modules/lib/wxsettings_ui.py	/^    def add_text(self, setting, width=300, height=100, multiline=False):$/;"	m	class:TabbedDialog
+add_to_submenu	modules/lib/mp_menu.py	/^    def add_to_submenu(self, submenu_path, item):$/;"	m	class:MPMenuSubMenu
+add_values	modules/lib/live_graph.py	/^    def add_values(self, values):$/;"	m	class:LiveGraph
+add_wp_below_pushed	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def add_wp_below_pushed(self, event):  # wxGlade: MissionEditorFrame.<event_handler>$/;"	m	class:MissionEditorFrame
+allow_unsigned	modules/mavproxy_signing.py	/^    def allow_unsigned(self, mav, dialect, msgId):$/;"	m	class:SigningModule
+alt	modules/mavproxy_map/GAreader.py	/^    alt = mappy.getAltitudeAtPoint(-35.045126, 149.257482)$/;"	v
+alt	modules/mavproxy_map/GAreader.py	/^    alt = mappy.getAltitudeAtPoint(-35.052544, 149.509165)$/;"	v
+alt	modules/mavproxy_map/GAreader.py	/^    alt = mappy.getAltitudeAtPoint(-35.239648, 149.126118)$/;"	v
+alt	modules/mavproxy_map/GAreader.py	/^    alt = mappy.getAltitudeAtPoint(-35.261612, 149.542091)$/;"	v
+alt	modules/mavproxy_map/GAreader.py	/^    alt = mappy.getAltitudeAtPoint(-35.274411, 149.097504)$/;"	v
+alt	modules/mavproxy_map/GAreader.py	/^    alt = mappy.getAltitudeAtPoint(-35.306992, 149.194274)$/;"	v
+alt	modules/mavproxy_map/GAreader.py	/^    alt = mappy.getAltitudeAtPoint(-35.362751, 149.165361)$/;"	v
+alt	modules/mavproxy_map/GAreader.py	/^    alt = mappy.getAltitudeAtPoint(-35.564044, 149.177657)$/;"	v
+alt	modules/mavproxy_map/mp_elevation.py	/^    alt = EleModel.GetElevation(lat, lon, timeout=10)$/;"	v	class:ElevationModel
+altitude_difference	modules/mavproxy_misc.py	/^    def altitude_difference(self, pressure1, pressure2, ground_temp):$/;"	m	class:MiscModule
+analyze_image	modules/mavproxy_smartcamera/sc_main.py	/^    def analyze_image(self):$/;"	m	class:SmartCamera
+angle_diff	modules/mavproxy_sensors.py	/^def angle_diff(angle1, angle2):$/;"	f
+angle_to_pixels_x	modules/mavproxy_smartcamera/sc_video.py	/^    def angle_to_pixels_x(self, angle):$/;"	m	class:SmartCameraVideo
+angle_to_pixels_y	modules/mavproxy_smartcamera/sc_video.py	/^    def angle_to_pixels_y(self, angle):$/;"	m	class:SmartCameraVideo
+app	modules/mavproxy_misseditor/missionEditorFrame.py	/^    app = wx.App(False)$/;"	v
+append	modules/lib/mp_settings.py	/^    def append(self, v):$/;"	m	class:MPSettings
+apply_rc_cal	modules/mavproxy_rcsetup.py	/^    def apply_rc_cal(self):$/;"	m	class:RCSetupModule
+area_to_image	modules/mavproxy_map/mp_tile.py	/^	def area_to_image(self, lat, lon, width, height, ground_width, zoom=None, ordered=True):$/;"	m	class:MPTile
+area_to_tile_list	modules/mavproxy_map/mp_tile.py	/^	def area_to_tile_list(self, lat, lon, width, height, ground_width, zoom=None):$/;"	m	class:MPTile
+args	modules/lib/grapher.py	/^    args = parser.parse_args()$/;"	v
+arming_masks	modules/mavproxy_arm.py	/^arming_masks = {$/;"	v
+autoSize	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        eventHandlers: null,   \/\/ Array of interaction handlers, just a MM.MouseHandler by default$/;"	p	class:MM.Map
+aux_option_validate	modules/mavproxy_auxopt.py	/^    def aux_option_validate(self, option):$/;"	m	class:AuxoptModule
+aux_options	modules/mavproxy_auxopt.py	/^aux_options = {$/;"	v
+aux_show	modules/mavproxy_auxopt.py	/^    def aux_show(self, channel):$/;"	m	class:AuxoptModule
+available_modes	modules/mavproxy_mode.py	/^    def available_modes(self):$/;"	m	class:ModeModule
+ax	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.Transformation.prototype = {$/;"	p	class:MM.Transformation
+ay	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        cx: 0,$/;"	p	class:MM.Transformation
+battery_report	modules/mavproxy_battery.py	/^    def battery_report(self):$/;"	m	class:BatteryModule
+battery_update	modules/mavproxy_battery.py	/^    def battery_update(self, SYS_STATUS):$/;"	m	class:BatteryModule
+boCameraInitialSetup	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def boCameraInitialSetup(self):$/;"	m	class:SmartCamera_SonyQX
+boGetLatestImage	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def boGetLatestImage(self):$/;"	m	class:SmartCamera_SonyQX
+boSetAperture	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def boSetAperture(self,u8Aperture):$/;"	m	class:SmartCamera_SonyQX
+boSetExposureMode	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def boSetExposureMode(self,sExposureMode):$/;"	m	class:SmartCamera_SonyQX
+boSetISO	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def boSetISO(self,u16ISO):$/;"	m	class:SmartCamera_SonyQX
+boSetShutterSpeed	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def boSetShutterSpeed(self,u16ShutterSpeed):$/;"	m	class:SmartCamera_SonyQX
+boSet_Attitude	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def boSet_Attitude(self, mAttitudeMessage):$/;"	m	class:SmartCamera_SonyQX
+boSet_GPS	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def boSet_GPS(self, mGPSMessage):$/;"	m	class:SmartCamera_SonyQX
+boTakePicture	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def boTakePicture(self):$/;"	m	class:SmartCamera_SonyQX
+boValidCameraFound	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def boValidCameraFound(self):$/;"	m	class:SmartCamera_SonyQX
+boZoomIn	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def boZoomIn(self):$/;"	m	class:SmartCamera_SonyQX
+boZoomOut	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def boZoomOut(self):$/;"	m	class:SmartCamera_SonyQX
+boundary	modules/mavproxy_map/mp_tile.py	/^		boundary = mp_util.polygon_load(opts.boundary)$/;"	v
+bounds	modules/mavproxy_map/mp_slipmap_util.py	/^    def bounds(self):$/;"	m	class:SlipCircle
+bounds	modules/mavproxy_map/mp_slipmap_util.py	/^    def bounds(self):$/;"	m	class:SlipLabel
+bounds	modules/mavproxy_map/mp_slipmap_util.py	/^    def bounds(self):$/;"	m	class:SlipObject
+bounds	modules/mavproxy_map/mp_slipmap_util.py	/^    def bounds(self):$/;"	m	class:SlipPolygon
+bounds	modules/mavproxy_map/mp_slipmap_util.py	/^    def bounds(self):$/;"	m	class:SlipThumbnail
+bounds	modules/mavproxy_map/mp_tile.py	/^		bounds = mp_util.polygon_bounds(boundary)$/;"	v
+bounds_overlap	modules/lib/mp_util.py	/^def bounds_overlap(bound1, bound2):$/;"	f
+bx	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        ax: 0,$/;"	p	class:MM.Transformation
+by	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        ay: 0,$/;"	p	class:MM.Transformation
+c2	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^                    var c2 = r2.coord;$/;"	v
+calcOffset	modules/mavproxy_map/srtm.py	/^    def calcOffset(self, x, y):$/;"	m	class:SRTMTile
+call	modules/lib/mp_menu.py	/^    def call(self):$/;"	m	class:MPMenuCallFileDialog
+call	modules/lib/mp_menu.py	/^    def call(self):$/;"	m	class:MPMenuCallTextDialog
+call	modules/lib/mp_menu.py	/^    def call(self):$/;"	m	class:MPMenuChildMessageDialog
+call	modules/lib/mp_menu.py	/^    def call(self):$/;"	m	class:MPMenuOpenWeblink
+call_handler	modules/lib/mp_menu.py	/^    def call_handler(self):$/;"	m	class:MPMenuItem
+callbackManager	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        layers: null,          \/\/ Array of MM.Layer (interface = .draw(), .destroy(), .parent and .map)$/;"	p	class:MM.Map
+callbackManager	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        maxOpenRequests: null,$/;"	p	class:MM.RequestManager
+callbacks	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        owner: null,$/;"	p	class:MM.CallbackManager
+center	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            var center = MM.Point.interpolate(p0, p1, 0.5);$/;"	v
+center	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Extent
+center	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+change_points_geo_ref	modules/lib/ANUGA/geo_reference.py	/^    def change_points_geo_ref(self, points, points_geo_ref=None):$/;"	m	class:Geo_reference
+change_zoom	modules/mavproxy_map/mp_slipmap_ui.py	/^    def change_zoom(self, zoom):$/;"	m	class:MPSlipMapPanel
+check_apm_out	modules/mavproxy_HIL.py	/^    def check_apm_out(self):$/;"	m	class:HILModule
+check_events	modules/mavproxy_map/mp_slipmap.py	/^    def check_events(self):$/;"	m	class:MPSlipMap
+check_heading	modules/mavproxy_sensors.py	/^    def check_heading(self, m):$/;"	m	class:SensorsModule
+check_home	modules/mavproxy_smartcamera/sc_main.py	/^    def check_home(self):$/;"	m	class:SmartCamera
+check_link_status	mavproxy.py	/^def check_link_status():$/;"	f
+check_param	modules/lib/mavmemlog.py	/^    def check_param(self, m):$/;"	m	class:mavmemlog
+check_section	modules/mavproxy_smartcamera/sc_config.py	/^    def check_section(self, section):$/;"	m	class:SmartCameraConfig
+check_sim_in	modules/mavproxy_HIL.py	/^    def check_sim_in(self):$/;"	m	class:HILModule
+check_sim_out	modules/mavproxy_HIL.py	/^    def check_sim_out(self):$/;"	m	class:HILModule
+check_status	modules/mavproxy_smartcamera/sc_main.py	/^    def check_status(self):$/;"	m	class:SmartCamera
+check_threat_timeout	modules/mavproxy_adsb.py	/^    def check_threat_timeout(self):$/;"	m	class:ADSBModule
+check_video_out	modules/mavproxy_smartcamera/sc_main.py	/^    def check_video_out(self):$/;"	m	class:SmartCamera
+checklist	modules/lib/mp_checklist.py	/^    checklist = CheckUI()$/;"	v	class:ChecklistFrame
+child	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            if (typeof child.prototype[property] == "undefined") {$/;"	c
+childFileListDownload	modules/mavproxy_map/srtm.py	/^childFileListDownload = None$/;"	v
+childTileDownload	modules/mavproxy_map/srtm.py	/^childTileDownload = None$/;"	v
+child_close_fds	modules/lib/mp_util.py	/^def child_close_fds():$/;"	f
+child_fd_list	modules/lib/mp_util.py	/^child_fd_list = []$/;"	v
+child_fd_list_add	modules/lib/mp_util.py	/^def child_fd_list_add(fd):$/;"	f
+child_fd_list_remove	modules/lib/mp_util.py	/^def child_fd_list_remove(fd):$/;"	f
+child_task	modules/lib/live_graph.py	/^    def child_task(self):$/;"	m	class:LiveGraph
+child_task	modules/lib/mp_checklist.py	/^    def child_task(self):$/;"	m	class:CheckUI
+child_task	modules/lib/mp_image.py	/^    def child_task(self):$/;"	m	class:MPImage
+child_task	modules/lib/wxconsole.py	/^    def child_task(self):$/;"	m	class:MessageConsole
+child_task	modules/lib/wxsettings.py	/^    def child_task(self):$/;"	m	class:WXSettings
+child_task	modules/mavproxy_map/mp_slipmap.py	/^    def child_task(self):$/;"	m	class:MPSlipMap
+child_task	modules/mavproxy_misseditor/__init__.py	/^    def child_task(self, q, l, gq, gl):$/;"	m	class:MissionEditorModule
+clear	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.RequestManager
+clearExcept	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.RequestManager
+clearRequest	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.RequestManager
+clear_rc_cal	modules/mavproxy_rcsetup.py	/^    def clear_rc_cal(self):$/;"	m	class:RCSetupModule
+clear_thumbnails	modules/mavproxy_map/mp_slipmap_ui.py	/^    def clear_thumbnails(self):$/;"	m	class:MPSlipMapPanel
+clear_zipimport_cache	mavproxy.py	/^def clear_zipimport_cache():$/;"	f
+clicked	modules/mavproxy_map/mp_slipmap_util.py	/^    def clicked(self, px, py):$/;"	m	class:SlipObject
+clicked	modules/mavproxy_map/mp_slipmap_util.py	/^    def clicked(self, px, py):$/;"	m	class:SlipPolygon
+clicked	modules/mavproxy_map/mp_slipmap_util.py	/^    def clicked(self, px, py):$/;"	m	class:SlipThumbnail
+clip	modules/mavproxy_map/mp_slipmap_util.py	/^    def clip(self, px, py, w, h, img):$/;"	m	class:SlipObject
+close	modules/lib/live_graph.py	/^    def close(self):$/;"	m	class:LiveGraph
+close	modules/lib/mp_checklist.py	/^    def close(self):$/;"	m	class:CheckUI
+close	modules/lib/textconsole.py	/^    def close(self):$/;"	m	class:SimpleConsole
+close	modules/lib/wxconsole.py	/^    def close(self):$/;"	m	class:MessageConsole
+close	modules/mavproxy_graph.py	/^    def close(self):$/;"	m	class:Graph
+close	modules/mavproxy_map/mp_slipmap.py	/^    def close(self):$/;"	m	class:MPSlipMap
+close	modules/mavproxy_misseditor/__init__.py	/^    def close(self):$/;"	m	class:MissionEditorModule
+closest_waypoint	modules/mavproxy_map/__init__.py	/^    def closest_waypoint(self, latlon):$/;"	m	class:MapModule
+cmd_ADSB	modules/mavproxy_adsb.py	/^    def cmd_ADSB(self, args):$/;"	m	class:ADSBModule
+cmd_accelcal	modules/mavproxy_calibration.py	/^    def cmd_accelcal(self, args):$/;"	m	class:CalibrationModule
+cmd_ahrstrim	modules/mavproxy_calibration.py	/^    def cmd_ahrstrim(self, args):$/;"	m	class:CalibrationModule
+cmd_alias	mavproxy.py	/^def cmd_alias(args):$/;"	f
+cmd_alt	modules/mavproxy_misc.py	/^    def cmd_alt(self, args):$/;"	m	class:MiscModule
+cmd_antenna	modules/mavproxy_antenna.py	/^    def cmd_antenna(self, args):$/;"	m	class:AntennaModule
+cmd_arm	modules/mavproxy_arm.py	/^    def cmd_arm(self, args):$/;"	m	class:ArmModule
+cmd_attitude	modules/mavproxy_cmdlong.py	/^    def cmd_attitude(self, args):$/;"	m	class:CmdlongModule
+cmd_auxopt	modules/mavproxy_auxopt.py	/^    def cmd_auxopt(self, args):$/;"	m	class:AuxoptModule
+cmd_bat	modules/mavproxy_battery.py	/^    def cmd_bat(self, args):$/;"	m	class:BatteryModule
+cmd_calpressure	modules/mavproxy_calibration.py	/^    def cmd_calpressure(self, args):$/;"	m	class:CalibrationModule
+cmd_camctrlmsg	modules/mavproxy_cmdlong.py	/^    def cmd_camctrlmsg(self, args):$/;"	m	class:CmdlongModule
+cmd_cameraview	modules/mavproxy_cameraview.py	/^    def cmd_cameraview(self, args):$/;"	m	class:CameraViewModule
+cmd_cammsg	modules/mavproxy_cmdlong.py	/^    def cmd_cammsg(self, args):$/;"	m	class:CmdlongModule
+cmd_changealt	modules/mavproxy_misc.py	/^    def cmd_changealt(self, args):$/;"	m	class:MiscModule
+cmd_compassmot	modules/mavproxy_calibration.py	/^    def cmd_compassmot(self, args):$/;"	m	class:CalibrationModule
+cmd_condition	tools/MAVExplorer.py	/^def cmd_condition(args):$/;"	f
+cmd_condition_yaw	modules/mavproxy_cmdlong.py	/^    def cmd_condition_yaw(self, args):$/;"	m	class:CmdlongModule
+cmd_dataflash_logger	modules/mavproxy_dataflash_logger.py	/^    def cmd_dataflash_logger(self, args):$/;"	m	class:dataflash_logger
+cmd_disarm	modules/mavproxy_arm.py	/^    def cmd_disarm(self, args):$/;"	m	class:ArmModule
+cmd_do_change_speed	modules/mavproxy_cmdlong.py	/^    def cmd_do_change_speed(self, args):$/;"	m	class:CmdlongModule
+cmd_fence	modules/mavproxy_fence.py	/^    def cmd_fence(self, args):$/;"	m	class:FenceModule
+cmd_fence_move	modules/mavproxy_fence.py	/^    def cmd_fence_move(self, args):$/;"	m	class:FenceModule
+cmd_fence_remove	modules/mavproxy_fence.py	/^    def cmd_fence_remove(self, args):$/;"	m	class:FenceModule
+cmd_gasheli	modules/mavproxy_gasheli.py	/^    def cmd_gasheli(self, args):$/;"	m	class:GasHeliModule
+cmd_gimbal	modules/mavproxy_gimbal.py	/^    def cmd_gimbal(self, args):$/;"	m	class:GimbalModule
+cmd_gimbal_mode	modules/mavproxy_gimbal.py	/^    def cmd_gimbal_mode(self, args):$/;"	m	class:GimbalModule
+cmd_gimbal_point	modules/mavproxy_gimbal.py	/^    def cmd_gimbal_point(self, args):$/;"	m	class:GimbalModule
+cmd_gimbal_rate	modules/mavproxy_gimbal.py	/^    def cmd_gimbal_rate(self, args):$/;"	m	class:GimbalModule
+cmd_gimbal_roi	modules/mavproxy_gimbal.py	/^    def cmd_gimbal_roi(self, args):$/;"	m	class:GimbalModule
+cmd_gimbal_roi_vel	modules/mavproxy_gimbal.py	/^    def cmd_gimbal_roi_vel(self, args):$/;"	m	class:GimbalModule
+cmd_gimbal_status	modules/mavproxy_gimbal.py	/^    def cmd_gimbal_status(self, args):$/;"	m	class:GimbalModule
+cmd_gopro	modules/mavproxy_gopro.py	/^    def cmd_gopro(self, args):$/;"	m	class:GoProModule
+cmd_gopro_status	modules/mavproxy_gopro.py	/^    def cmd_gopro_status(self, args):$/;"	m	class:GoProModule
+cmd_graph	modules/mavproxy_graph.py	/^    def cmd_graph(self, args):$/;"	m	class:GraphModule
+cmd_graph	tools/MAVExplorer.py	/^def cmd_graph(args):$/;"	f
+cmd_ground	modules/mavproxy_calibration.py	/^    def cmd_ground(self, args):$/;"	m	class:CalibrationModule
+cmd_guided	modules/mavproxy_mode.py	/^    def cmd_guided(self, args):$/;"	m	class:ModeModule
+cmd_gyrocal	modules/mavproxy_calibration.py	/^    def cmd_gyrocal(self, args):$/;"	m	class:CalibrationModule
+cmd_help	modules/mavproxy_help.py	/^    def cmd_help(self, args):$/;"	m	class:HelpModule
+cmd_land	modules/mavproxy_misc.py	/^    def cmd_land(self, args):$/;"	m	class:MiscModule
+cmd_level	modules/mavproxy_calibration.py	/^    def cmd_level(self, args):$/;"	m	class:CalibrationModule
+cmd_link	modules/mavproxy_link.py	/^    def cmd_link(self, args):$/;"	m	class:LinkModule
+cmd_link_add	modules/mavproxy_link.py	/^    def cmd_link_add(self, args):$/;"	m	class:LinkModule
+cmd_link_list	modules/mavproxy_link.py	/^    def cmd_link_list(self):$/;"	m	class:LinkModule
+cmd_link_ports	modules/mavproxy_link.py	/^    def cmd_link_ports(self):$/;"	m	class:LinkModule
+cmd_link_remove	modules/mavproxy_link.py	/^    def cmd_link_remove(self, args):$/;"	m	class:LinkModule
+cmd_loadfile	tools/MAVExplorer.py	/^def cmd_loadfile(args):$/;"	f
+cmd_log	modules/mavproxy_log.py	/^    def cmd_log(self, args):$/;"	m	class:LogModule
+cmd_long	modules/mavproxy_cmdlong.py	/^    def cmd_long(self, args):$/;"	m	class:CmdlongModule
+cmd_long_commands	modules/mavproxy_cmdlong.py	/^    def cmd_long_commands(self):$/;"	m	class:CmdlongModule
+cmd_magcal	modules/mavproxy_calibration.py	/^    def cmd_magcal(self, args):$/;"	m	class:CalibrationModule
+cmd_map	modules/mavproxy_map/__init__.py	/^    def cmd_map(self, args):$/;"	m	class:MapModule
+cmd_map	tools/MAVExplorer.py	/^def cmd_map(args):$/;"	f
+cmd_mode	modules/mavproxy_mode.py	/^    def cmd_mode(self, args):$/;"	m	class:ModeModule
+cmd_module	mavproxy.py	/^def cmd_module(args):$/;"	f
+cmd_motortest	modules/mavproxy_relay.py	/^    def cmd_motortest(self, args):$/;"	m	class:RelayModule
+cmd_nsh	modules/mavproxy_nsh.py	/^    def cmd_nsh(self, args):$/;"	m	class:NSHModule
+cmd_output	modules/mavproxy_output.py	/^    def cmd_output(self, args):$/;"	m	class:OutputModule
+cmd_output_add	modules/mavproxy_output.py	/^    def cmd_output_add(self, args):$/;"	m	class:OutputModule
+cmd_output_list	modules/mavproxy_output.py	/^    def cmd_output_list(self):$/;"	m	class:OutputModule
+cmd_output_remove	modules/mavproxy_output.py	/^    def cmd_output_remove(self, args):$/;"	m	class:OutputModule
+cmd_output_sysid	modules/mavproxy_output.py	/^    def cmd_output_sysid(self, args):$/;"	m	class:OutputModule
+cmd_parachute	modules/mavproxy_cmdlong.py	/^    def cmd_parachute(self, args):$/;"	m	class:CmdlongModule
+cmd_param	modules/mavproxy_param.py	/^    def cmd_param(self, args):$/;"	m	class:ParamModule
+cmd_param	tools/MAVExplorer.py	/^def cmd_param(args):$/;"	f
+cmd_position	modules/mavproxy_cmdlong.py	/^    def cmd_position(self, args):$/;"	m	class:CmdlongModule
+cmd_posvel	modules/mavproxy_cmdlong.py	/^    def cmd_posvel(self, args):$/;"	m	class:CmdlongModule
+cmd_ppp	modules/mavproxy_ppp.py	/^    def cmd_ppp(self, args):$/;"	m	class:PPPModule
+cmd_rally	modules/mavproxy_rally.py	/^    def cmd_rally(self, args):$/;"	m	class:RallyModule
+cmd_rally_add	modules/mavproxy_rally.py	/^    def cmd_rally_add(self, args):$/;"	m	class:RallyModule
+cmd_rally_alt	modules/mavproxy_rally.py	/^    def cmd_rally_alt(self, args):$/;"	m	class:RallyModule
+cmd_rally_move	modules/mavproxy_rally.py	/^    def cmd_rally_move(self, args):$/;"	m	class:RallyModule
+cmd_rc	modules/mavproxy_rc.py	/^    def cmd_rc(self, args):$/;"	m	class:RCModule
+cmd_rcbind	modules/mavproxy_misc.py	/^    def cmd_rcbind(self, args):$/;"	m	class:MiscModule
+cmd_rccal	modules/mavproxy_rcsetup.py	/^    def cmd_rccal(self, args):$/;"	m	class:RCSetupModule
+cmd_rctrim	modules/mavproxy_rcsetup.py	/^    def cmd_rctrim(self, args):$/;"	m	class:RCSetupModule
+cmd_reboot	modules/mavproxy_misc.py	/^    def cmd_reboot(self, args):$/;"	m	class:MiscModule
+cmd_relay	modules/mavproxy_relay.py	/^    def cmd_relay(self, args):$/;"	m	class:RelayModule
+cmd_reload	tools/MAVExplorer.py	/^def cmd_reload(args):$/;"	f
+cmd_repeat	modules/mavproxy_misc.py	/^    def cmd_repeat(self, args):$/;"	m	class:MiscModule
+cmd_reset	mavproxy.py	/^def cmd_reset(args):$/;"	f
+cmd_reverse_lookup	modules/mavproxy_misseditor/me_defines.py	/^def cmd_reverse_lookup(command_name):$/;"	f
+cmd_save	tools/MAVExplorer.py	/^def cmd_save(args):$/;"	f
+cmd_script	mavproxy.py	/^def cmd_script(args):$/;"	f
+cmd_sensors	modules/mavproxy_sensors.py	/^    def cmd_sensors(self, args):$/;"	m	class:SensorsModule
+cmd_serial	modules/mavproxy_serial.py	/^    def cmd_serial(self, args):$/;"	m	class:SerialModule
+cmd_servo	modules/mavproxy_relay.py	/^    def cmd_servo(self, args):$/;"	m	class:RelayModule
+cmd_set	mavproxy.py	/^def cmd_set(args):$/;"	f
+cmd_set	tools/MAVExplorer.py	/^def cmd_set(args):$/;"	f
+cmd_set_home	modules/mavproxy_map/__init__.py	/^    def cmd_set_home(self, args):$/;"	m	class:MapModule
+cmd_setup	mavproxy.py	/^def cmd_setup(args):$/;"	f
+cmd_shell	modules/mavproxy_misc.py	/^    def cmd_shell(self, args):$/;"	m	class:MiscModule
+cmd_signing	modules/mavproxy_signing.py	/^    def cmd_signing(self, args):$/;"	m	class:SigningModule
+cmd_signing_disable	modules/mavproxy_signing.py	/^    def cmd_signing_disable(self, args):$/;"	m	class:SigningModule
+cmd_signing_key	modules/mavproxy_signing.py	/^    def cmd_signing_key(self, args):$/;"	m	class:SigningModule
+cmd_signing_remove	modules/mavproxy_signing.py	/^    def cmd_signing_remove(self, args):$/;"	m	class:SigningModule
+cmd_signing_setup	modules/mavproxy_signing.py	/^    def cmd_signing_setup(self, args):$/;"	m	class:SigningModule
+cmd_speed	modules/mavproxy_sensors.py	/^    def cmd_speed(self, args):$/;"	m	class:SensorsModule
+cmd_status	mavproxy.py	/^def cmd_status(args):$/;"	f
+cmd_switch	modules/mavproxy_rc.py	/^    def cmd_switch(self, args):$/;"	m	class:RCModule
+cmd_takeoff	modules/mavproxy_cmdlong.py	/^    def cmd_takeoff(self, args):$/;"	m	class:CmdlongModule
+cmd_terrain	modules/mavproxy_terrain.py	/^    def cmd_terrain(self, args):$/;"	m	class:TerrainModule
+cmd_terrain_check	modules/mavproxy_terrain.py	/^    def cmd_terrain_check(self, args):$/;"	m	class:TerrainModule
+cmd_time	modules/mavproxy_misc.py	/^    def cmd_time(self, args):$/;"	m	class:MiscModule
+cmd_tracker	modules/mavproxy_tracker.py	/^    def cmd_tracker(self, args):$/;"	m	class:TrackerModule
+cmd_tracker_arm	modules/mavproxy_tracker.py	/^    def cmd_tracker_arm(self):$/;"	m	class:TrackerModule
+cmd_tracker_calpress	modules/mavproxy_tracker.py	/^    def cmd_tracker_calpress(self, args):$/;"	m	class:TrackerModule
+cmd_tracker_disarm	modules/mavproxy_tracker.py	/^    def cmd_tracker_disarm(self):$/;"	m	class:TrackerModule
+cmd_tracker_level	modules/mavproxy_tracker.py	/^    def cmd_tracker_level(self):$/;"	m	class:TrackerModule
+cmd_tracker_mode	modules/mavproxy_tracker.py	/^    def cmd_tracker_mode(self, args):$/;"	m	class:TrackerModule
+cmd_tracker_param	modules/mavproxy_tracker.py	/^    def cmd_tracker_param(self, args):$/;"	m	class:TrackerModule
+cmd_tracker_position	modules/mavproxy_tracker.py	/^    def cmd_tracker_position(self, args):$/;"	m	class:TrackerModule
+cmd_tracker_start	modules/mavproxy_tracker.py	/^    def cmd_tracker_start(self):$/;"	m	class:TrackerModule
+cmd_tuneopt	modules/mavproxy_tuneopt.py	/^    def cmd_tuneopt(self, args):$/;"	m	class:TuneoptModule
+cmd_up	modules/mavproxy_misc.py	/^    def cmd_up(self, args):$/;"	m	class:MiscModule
+cmd_velocity	modules/mavproxy_cmdlong.py	/^    def cmd_velocity(self, args):$/;"	m	class:CmdlongModule
+cmd_version	modules/mavproxy_misc.py	/^    def cmd_version(self, args):$/;"	m	class:MiscModule
+cmd_watch	mavproxy.py	/^def cmd_watch(args):$/;"	f
+cmd_wp	modules/mavproxy_wp.py	/^    def cmd_wp(self, args):$/;"	m	class:WPModule
+cmd_wp_move	modules/mavproxy_wp.py	/^    def cmd_wp_move(self, args):$/;"	m	class:WPModule
+cmd_wp_movemulti	modules/mavproxy_wp.py	/^    def cmd_wp_movemulti(self, args):$/;"	m	class:WPModule
+cmd_wp_param	modules/mavproxy_wp.py	/^    def cmd_wp_param(self, args):$/;"	m	class:WPModule
+cmd_wp_remove	modules/mavproxy_wp.py	/^    def cmd_wp_remove(self, args):$/;"	m	class:WPModule
+cmd_wp_undo	modules/mavproxy_wp.py	/^    def cmd_wp_undo(self):$/;"	m	class:WPModule
+colors	modules/lib/grapher.py	/^colors = [ 'red', 'green', 'blue', 'orange', 'olive', 'black', 'grey', 'yellow', 'brown', 'darkcyan',$/;"	v
+colourmap	tools/mavflightview.py	/^colourmap = {$/;"	v
+column	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        row: 0,$/;"	p	class:MM.Coordinate
+combine	modules/lib/mp_menu.py	/^    def combine(self, submenu):$/;"	m	class:MPMenuSubMenu
+command	modules/lib/mp_settings.py	/^    def command(self, args):$/;"	m	class:MPSettings
+command_map	mavproxy.py	/^command_map = {$/;"	v
+command_map	tools/MAVExplorer.py	/^command_map = {$/;"	v
+complete	modules/lib/rline.py	/^def complete(text, state):$/;"	f
+complete_alias	modules/lib/rline.py	/^def complete_alias(text):$/;"	f
+complete_command	modules/lib/rline.py	/^def complete_command(text):$/;"	f
+complete_filename	modules/lib/rline.py	/^def complete_filename(text):$/;"	f
+complete_links	modules/mavproxy_link.py	/^    def complete_links(self, text):$/;"	m	class:LinkModule
+complete_loadedmodules	modules/lib/rline.py	/^def complete_loadedmodules(text):$/;"	f
+complete_modules	modules/lib/rline.py	/^def complete_modules(text):$/;"	f
+complete_parameter	modules/lib/rline.py	/^def complete_parameter(text):$/;"	f
+complete_parameter	modules/mavproxy_tracker.py	/^    def complete_parameter(self, text):$/;"	m	class:TrackerModule
+complete_rule	modules/lib/rline.py	/^def complete_rule(rule, cmd):$/;"	f
+complete_rules	modules/lib/rline.py	/^def complete_rules(rules, cmd):$/;"	f
+complete_serial_ports	modules/mavproxy_link.py	/^    def complete_serial_ports(self, text):$/;"	m	class:LinkModule
+complete_variable	modules/lib/rline.py	/^def complete_variable(text):$/;"	f
+completion	modules/lib/mp_settings.py	/^    def completion(self, text):$/;"	m	class:MPSettings
+config	modules/mavproxy_smartcamera/sc_config.py	/^config = SmartCameraConfig()$/;"	v
+console	modules/lib/mp_module.py	/^    def console(self):$/;"	m	class:MPModule
+console	modules/lib/textconsole.py	/^    console = SimpleConsole()$/;"	v
+console	modules/lib/wxconsole.py	/^    console = MessageConsole()$/;"	v
+container	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Coordinate
+containsLocation	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Extent
+continue_mode	modules/lib/mp_module.py	/^    def continue_mode(self):$/;"	m	class:MPModule
+convert_body_frame	modules/mavproxy_HIL.py	/^    def convert_body_frame(self, phi, theta, phiDot, thetaDot, psiDot):$/;"	m	class:HILModule
+convert_from_latlon_to_utm	modules/lib/ANUGA/redfearn.py	/^def convert_from_latlon_to_utm(points=None,$/;"	f
+coord	modules/mavproxy_map/mp_tile.py	/^	def coord(self, offset=(0,0)):$/;"	m	class:TileInfo
+coord	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^                var request = { id: id, coord: coord.copy(), url: url };$/;"	p	class:var.request
+coordLimits	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        tileSize: null,        \/\/ MM.Point with x\/y size of tiles$/;"	p	class:MM.Map
+coord_from_area	modules/mavproxy_map/mp_tile.py	/^	def coord_from_area(self, x, y, lat, lon, width, ground_width):$/;"	m	class:MPTile
+coord_to_pixel	modules/mavproxy_map/mp_tile.py	/^	def coord_to_pixel(self, lat, lon, width, ground_width, lat2, lon2):$/;"	m	class:MPTile
+coord_to_tile	modules/mavproxy_map/mp_tile.py	/^	def coord_to_tile(self, lat, lon, zoom):$/;"	m	class:MPTile
+coord_to_tilepath	modules/mavproxy_map/mp_tile.py	/^	def coord_to_tilepath(self, lat, lon, zoom):$/;"	m	class:MPTile
+coordinate	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        projection: null,      \/\/ MM.Projection of first known layer$/;"	p	class:MM.Map
+coordinateLocation	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+coordinateLocation	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Projection
+coordinatePoint	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+coordinates	modules/mavproxy_map/mp_slipmap_ui.py	/^    def coordinates(self, x, y):$/;"	m	class:MPSlipMapPanel
+copy	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        west: 0,$/;"	m	class:MM.Extent
+copy	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Coordinate
+copy	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Location
+copy	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Point
+createActions	modules/lib/mp_checklist.py	/^    def createActions(self):$/;"	m	class:ChecklistFrame
+createFileList	modules/mavproxy_map/srtm.py	/^    def createFileList(self):$/;"	m	class:SRTMDownloader
+createFileListHTTP	modules/mavproxy_map/srtm.py	/^    def createFileListHTTP(self):$/;"	m	class:SRTMDownloader
+createLists	modules/lib/mp_checklist.py	/^    def createLists(self):$/;"	m	class:ChecklistFrame
+createWidgets	modules/lib/mp_checklist.py	/^    def createWidgets(self):$/;"	m	class:ChecklistFrame
+create_imagefile	tools/mavflightview.py	/^def create_imagefile(options, filename, latlon, ground_width, path_objs, mission_obj, fence_obj, width=600, height=600):$/;"	f
+create_main_panel	modules/lib/live_graph_ui.py	/^    def create_main_panel(self):$/;"	m	class:GraphFrame
+create_map	tools/mavflightview.py	/^def create_map(title):$/;"	f
+create_vehicle_icon	modules/mavproxy_map/__init__.py	/^    def create_vehicle_icon(self, name, colour, follow=False, vehicle_type=None):$/;"	m	class:MapModule
+current_view	modules/mavproxy_map/mp_slipmap_ui.py	/^    def current_view(self):$/;"	m	class:MPSlipMapPanel
+cx	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        bx: 0,$/;"	p	class:MM.Transformation
+cy	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        by: 0,$/;"	p	class:MM.Transformation
+dataPackets	modules/mavproxy_link.py	/^dataPackets = frozenset(['BAD_DATA','LOG_DATA'])$/;"	v
+dataflash_logger	modules/mavproxy_dataflash_logger.py	/^class dataflash_logger(mp_module.MPModule):$/;"	c
+decimal_degrees2degminsec	modules/lib/ANUGA/redfearn.py	/^def decimal_degrees2degminsec(dec):$/;"	f
+default	mavproxy.py	/^                      default='mav.tlog')$/;"	v
+default	mavproxy.py	/^                      default=[])$/;"	v
+default	mavproxy.py	/^        default=[],$/;"	v
+default_log_filename	modules/mavproxy_log.py	/^    def default_log_filename(self, log_num):$/;"	m	class:LogModule
+degminsec2decimal_degrees	modules/lib/ANUGA/redfearn.py	/^def degminsec2decimal_degrees(dd,mm,ss):$/;"	f
+degrees_to_dms	modules/lib/mp_util.py	/^def degrees_to_dms(degrees):$/;"	f
+delayedPackets	modules/mavproxy_link.py	/^delayedPackets = frozenset([ 'MISSION_CURRENT', 'SYS_STATUS', 'VFR_HUD',$/;"	v
+description_map	modules/mavproxy_misseditor/me_defines.py	/^description_map = [$/;"	v
+destroy	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+dimensions	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        parent: null,          \/\/ DOM Element$/;"	p	class:MM.Map
+discover	modules/mavproxy_smartcamera/ssdp.py	/^def discover(service, if_ip=None, timeout=2, retries=1):$/;"	f
+dispatchCallback	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.CallbackManager
+dispatchCallback	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+dispatchCallback	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.RequestManager
+display_fence	modules/mavproxy_map/__init__.py	/^    def display_fence(self):$/;"	m	class:MapModule
+display_graph	tools/MAVExplorer.py	/^def display_graph(graphdef):$/;"	f
+display_waypoints	modules/mavproxy_map/__init__.py	/^    def display_waypoints(self):$/;"	m	class:MapModule
+display_waypoints	tools/mavflightview.py	/^def display_waypoints(wploader, map):$/;"	f
+distance	modules/mavproxy_map/mp_tile.py	/^	def distance(self, lat, lon):$/;"	m	class:TileInfo
+dlg	modules/lib/wxsettings.py	/^    dlg = WXSettings(settings)$/;"	v
+do_GET	modules/mavproxy_mmap/mmap_server.py	/^  def do_GET(self):$/;"	m	class:Handler
+dot_mavproxy	modules/lib/mp_util.py	/^def dot_mavproxy(name):$/;"	f
+doubleClick	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.DoubleClickHandler
+down	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Coordinate
+downloadTile	modules/mavproxy_map/srtm.py	/^    def downloadTile(self, continent, filename):$/;"	m	class:SRTMDownloader
+download_files	modules/lib/mp_util.py	/^def download_files(files):$/;"	f
+download_url	modules/lib/mp_util.py	/^def download_url(url):$/;"	f
+downloader	modules/mavproxy_map/mp_tile.py	/^	def downloader(self):$/;"	m	class:MPTile
+downloader	modules/mavproxy_map/srtm.py	/^    downloader = SRTMDownloader()$/;"	v
+draw	modules/mavproxy_map/mp_slipmap_util.py	/^    def draw(self, img, pixmapper, bounds):$/;"	m	class:SlipCircle
+draw	modules/mavproxy_map/mp_slipmap_util.py	/^    def draw(self, img, pixmapper, bounds):$/;"	m	class:SlipGrid
+draw	modules/mavproxy_map/mp_slipmap_util.py	/^    def draw(self, img, pixmapper, bounds):$/;"	m	class:SlipIcon
+draw	modules/mavproxy_map/mp_slipmap_util.py	/^    def draw(self, img, pixmapper, bounds):$/;"	m	class:SlipLabel
+draw	modules/mavproxy_map/mp_slipmap_util.py	/^    def draw(self, img, pixmapper, bounds):$/;"	m	class:SlipObject
+draw	modules/mavproxy_map/mp_slipmap_util.py	/^    def draw(self, img, pixmapper, bounds):$/;"	m	class:SlipPolygon
+draw	modules/mavproxy_map/mp_slipmap_util.py	/^    def draw(self, img, pixmapper, bounds):$/;"	m	class:SlipThumbnail
+draw	modules/mavproxy_map/mp_slipmap_util.py	/^    def draw(self, img, pixmapper, bounds):$/;"	m	class:SlipTrail
+draw	modules/mavproxy_map/mp_slipmap_util.py	/^    def draw(self, parent, box):$/;"	m	class:SlipInfoImage
+draw	modules/mavproxy_map/mp_slipmap_util.py	/^    def draw(self, parent, box):$/;"	m	class:SlipInfoText
+draw	modules/mavproxy_map/mp_slipmap_util.py	/^    def draw(self, parent, box):$/;"	m	class:SlipInformation
+draw	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+draw_label	modules/mavproxy_map/mp_slipmap_util.py	/^    def draw_label(self, img, pixmapper):$/;"	m	class:SlipLabel
+draw_line	modules/mavproxy_map/mp_slipmap_util.py	/^    def draw_line(self, img, pixmapper, pt1, pt2, colour, linewidth):$/;"	m	class:SlipGrid
+draw_line	modules/mavproxy_map/mp_slipmap_util.py	/^    def draw_line(self, img, pixmapper, pt1, pt2, colour, linewidth):$/;"	m	class:SlipPolygon
+draw_lines	modules/mavproxy_map/__init__.py	/^    def draw_lines(self, callback):$/;"	m	class:MapModule
+draw_objects	modules/mavproxy_map/mp_slipmap_ui.py	/^    def draw_objects(self, objects, bounds, img):$/;"	m	class:MPSlipMapPanel
+draw_plot	modules/lib/live_graph_ui.py	/^    def draw_plot(self):$/;"	m	class:GraphFrame
+drawing_end	modules/mavproxy_map/__init__.py	/^    def drawing_end(self):$/;"	m	class:MapModule
+drawing_update	modules/mavproxy_map/__init__.py	/^    def drawing_update(self):$/;"	m	class:MapModule
+dumpstacks	modules/lib/dumpstacks.py	/^def dumpstacks(signal, frame):$/;"	f
+e1	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    e1 = (1-sqrt(1-eccSquared))\/(1+sqrt(1-eccSquared))$/;"	v
+east	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        south: 0,$/;"	p	class:MM.Extent
+eccPrimeSquared	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    eccPrimeSquared = (eccSquared)\/(1-eccSquared)$/;"	v
+eccSquared	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    eccSquared = _ellipsoid[ReferenceEllipsoid][_eccentricitySquared]$/;"	v
+edge_colour	modules/lib/grapher.py	/^edge_colour = (0.1, 0.1, 0.1)$/;"	v
+encloseExtent	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Extent
+encloseLocation	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Extent
+encloseLocations	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Extent
+enforceLimits	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+enforcePanLimits	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+enforceZoomLimits	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+ensure_geo_reference	modules/lib/ANUGA/geo_reference.py	/^def ensure_geo_reference(origin):$/;"	f
+enter_position	modules/mavproxy_map/mp_slipmap_ui.py	/^    def enter_position(self):$/;"	m	class:MPSlipMapPanel
+enum	modules/mavproxy_misseditor/me_defines.py	/^    enum = mavutil.mavlink.enums['MAV_CMD'][cmd]$/;"	v
+enum	modules/mavproxy_test.py	/^def enum(**enums):$/;"	f
+error	modules/lib/optparse_gui/__init__.py	/^    def error( self, msg ):$/;"	m	class:OptionParser
+error	modules/lib/textconsole.py	/^    def error(self, text, fg='red', bg='white'):$/;"	m	class:SimpleConsole
+estimated_time_remaining	modules/mavproxy_console.py	/^    def estimated_time_remaining(self, lat, lon, wpnum, speed):$/;"	m	class:ConsoleModule
+eventHandlers	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        callbackManager: null, \/\/ MM.CallbackManager, handles map events$/;"	p	class:MM.Map
+event_count	modules/mavproxy_map/mp_slipmap.py	/^    def event_count(self):$/;"	m	class:MPSlipMap
+events	modules/lib/mp_image.py	/^    def events(self):$/;"	m	class:MPImage
+expression_ok	tools/MAVExplorer.py	/^def expression_ok(expression):$/;"	f
+extend	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^};$/;"	f
+extent	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+extentCoordinate	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+fatalsignals	mavproxy.py	/^    fatalsignals = [signal.SIGTERM]$/;"	v
+fence_draw_callback	modules/mavproxy_fence.py	/^    def fence_draw_callback(self, points):$/;"	m	class:FenceModule
+fetch	modules/mavproxy_wp.py	/^    def fetch(self):$/;"	m	class:WPModule
+fetch_check	modules/mavproxy_param.py	/^    def fetch_check(self, master):$/;"	m	class:ParamState
+fetch_fence_point	modules/mavproxy_fence.py	/^    def fetch_fence_point(self ,i):$/;"	m	class:FenceModule
+fetch_mission	modules/mavproxy_smartcamera/sc_main.py	/^    def fetch_mission(self):$/;"	m	class:SmartCamera
+fetch_rally_point	modules/mavproxy_rally.py	/^    def fetch_rally_point(self, i):$/;"	m	class:RallyModule
+filenames	modules/lib/grapher.py	/^    filenames = []$/;"	v
+find_connection	modules/mavproxy_tracker.py	/^    def find_connection(self):$/;"	m	class:TrackerModule
+find_object	modules/mavproxy_map/mp_slipmap_ui.py	/^    def find_object(self, key, layers):$/;"	m	class:MPSlipMapFrame
+find_selected	modules/lib/mp_menu.py	/^    def find_selected(self, event):$/;"	m	class:MPMenuCheckbox
+find_selected	modules/lib/mp_menu.py	/^    def find_selected(self, event):$/;"	m	class:MPMenuGeneric
+find_selected	modules/lib/mp_menu.py	/^    def find_selected(self, event):$/;"	m	class:MPMenuItem
+find_selected	modules/lib/mp_menu.py	/^    def find_selected(self, event):$/;"	m	class:MPMenuRadio
+find_selected	modules/lib/mp_menu.py	/^    def find_selected(self, event):$/;"	m	class:MPMenuSubMenu
+find_selected	modules/lib/mp_menu.py	/^    def find_selected(self, event):$/;"	m	class:MPMenuTop
+fit_to_window	modules/lib/mp_image.py	/^    def fit_to_window(self):$/;"	m	class:MPImage
+fit_to_window	modules/lib/mp_image.py	/^    def fit_to_window(self):$/;"	m	class:MPImagePanel
+flightmode_colour	modules/lib/grapher.py	/^    def flightmode_colour(self, flightmode):$/;"	m	class:MavGraph
+flightmode_colours	modules/lib/grapher.py	/^flightmode_colours = [$/;"	v
+flightmode_list	modules/lib/mavmemlog.py	/^    def flightmode_list(self):$/;"	m	class:mavmemlog
+flightmode_menu	tools/MAVExplorer.py	/^def flightmode_menu():$/;"	f
+follow	modules/mavproxy_map/mp_slipmap_ui.py	/^    def follow(self, object):$/;"	m	class:MPSlipMapFrame
+format_coord	modules/lib/grapher.py	/^        def format_coord(x, y):$/;"	f	function:MavGraph.make_format
+frame_enum	modules/mavproxy_misseditor/me_defines.py	/^frame_enum = {0: "Abs", 3: "Rel", 10: "AGL"}$/;"	v
+frame_enum_rev	modules/mavproxy_misseditor/me_defines.py	/^frame_enum_rev = {v:k for k,v in frame_enum.items()}$/;"	v
+full_size	modules/lib/mp_image.py	/^    def full_size(self):$/;"	m	class:MPImage
+full_size	modules/lib/mp_image.py	/^    def full_size(self):$/;"	m	class:MPImagePanel
+g_module_context	modules/mavproxy_mmap/__init__.py	/^g_module_context = None$/;"	v
+get	modules/lib/mp_settings.py	/^    def get(self, name):$/;"	m	class:MPSettings
+get	modules/lib/multiprocessing_queue.py	/^        def get(self, *args, **kwargs):$/;"	m	class:osxQueue
+getAltitudeAtPoint	modules/mavproxy_map/GAreader.py	/^    def getAltitudeAtPoint(self, latty, longy):$/;"	m	class:ERMap
+getAltitudeFromLatLon	modules/mavproxy_map/srtm.py	/^    def getAltitudeFromLatLon(self, lat, lon):$/;"	m	class:SRTMOceanTile
+getAltitudeFromLatLon	modules/mavproxy_map/srtm.py	/^    def getAltitudeFromLatLon(self, lat, lon):$/;"	m	class:SRTMTile
+getCenter	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+getDirListing	modules/mavproxy_map/srtm.py	/^    def getDirListing(self):$/;"	m	class:parseHTMLDirectoryListing
+getExtent	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+getHeaderParam	modules/mavproxy_map/GAreader.py	/^    def getHeaderParam(self, key):$/;"	m	class:ERMap
+getLayerAt	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+getLayers	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+getLoadComplete	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        _loadComplete: null,$/;"	m	class:MM.RequestManager
+getOptionsAndArgs	modules/lib/optparse_gui/__init__.py	/^    def getOptionsAndArgs( self ):$/;"	m	class:OptparseDialog
+getPercentBlank	modules/mavproxy_map/GAreader.py	/^    def getPercentBlank(self):$/;"	m	class:ERMap
+getPixelValue	modules/mavproxy_map/srtm.py	/^    def getPixelValue(self, x, y):$/;"	m	class:SRTMTile
+getProcessQueue	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.RequestManager
+getRedraw	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        _redraw: null,$/;"	m	class:MM.Map
+getTile	modules/mavproxy_map/srtm.py	/^    def getTile(self, lat, lon):$/;"	m	class:SRTMDownloader
+getTile	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.TemplatedMapProvider
+getTileUrl	modules/mavproxy_mmap/mmap_app/bing.js	/^    subdomains: null,$/;"	p	class:MM.BingProvider
+getTileUrl	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        var getTileUrl = function(coordinate) {$/;"	f	function:MM.TemplatedMapProvider
+getZoom	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+get_absolute	modules/lib/ANUGA/geo_reference.py	/^    def get_absolute(self, points):$/;"	m	class:Geo_reference
+get_arg	modules/mavproxy_misseditor/me_event.py	/^    def get_arg(self, key):$/;"	m	class:MissionEditorEvent
+get_boolean	modules/mavproxy_smartcamera/sc_config.py	/^    def get_boolean(self, section, option, default):$/;"	m	class:SmartCameraConfig
+get_cal_max	modules/mavproxy_rcsetup.py	/^    def get_cal_max(self, channel):$/;"	m	class:RCSetupModule
+get_cal_min	modules/mavproxy_rcsetup.py	/^    def get_cal_min(self, channel):$/;"	m	class:RCSetupModule
+get_camera	modules/mavproxy_smartcamera/sc_video.py	/^    def get_camera(self):$/;"	m	class:SmartCameraVideo
+get_choice	modules/lib/mp_menu.py	/^    def get_choice(self):$/;"	m	class:MPMenuRadio
+get_column_labels	modules/mavproxy_misseditor/me_defines.py	/^def get_column_labels(command_name):$/;"	f
+get_default_frame	modules/mavproxy_wp.py	/^    def get_default_frame(self):$/;"	m	class:WPModule
+get_event	modules/mavproxy_map/mp_slipmap.py	/^    def get_event(self):$/;"	m	class:MPSlipMap
+get_float	modules/mavproxy_smartcamera/sc_config.py	/^    def get_float(self, section, option, default):$/;"	m	class:SmartCameraConfig
+get_h_distance	modules/mavproxy_adsb.py	/^    def get_h_distance(self, latlonalt1, latlonalt2):$/;"	m	class:ADSBModule
+get_image	modules/mavproxy_smartcamera/sc_video.py	/^    def get_image(self):$/;"	m	class:SmartCameraVideo
+get_image_counter	modules/mavproxy_smartcamera/sc_webcam.py	/^    def get_image_counter(self):$/;"	m	class:SmartCameraWebCam
+get_integer	modules/mavproxy_smartcamera/sc_config.py	/^    def get_integer(self, section, option, default):$/;"	m	class:SmartCameraConfig
+get_latest_image	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def get_latest_image(self):$/;"	m	class:SmartCamera_SonyQX
+get_latest_image	modules/mavproxy_smartcamera/sc_webcam.py	/^    def get_latest_image(self):$/;"	m	class:SmartCameraWebCam
+get_mav_param	mavproxy.py	/^def get_mav_param(param, default=None):$/;"	f
+get_mav_param	modules/lib/mp_module.py	/^    def get_mav_param(self, param_name, default=None):$/;"	m	class:MPModule
+get_menu	modules/lib/mp_image.py	/^    def get_menu(self):$/;"	m	class:MPImage
+get_origin	modules/lib/ANUGA/geo_reference.py	/^    def get_origin(self):$/;"	m	class:Geo_reference
+get_override_chan	modules/mavproxy_rc.py	/^    def get_override_chan(self, channel):$/;"	m	class:RCModule
+get_popup_menu	modules/lib/mp_image.py	/^    def get_popup_menu(self):$/;"	m	class:MPImage
+get_real_Yaw	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def get_real_Yaw(self, yaw):$/;"	m	class:SmartCamera_SonyQX
+get_relative	modules/lib/ANUGA/geo_reference.py	/^    def get_relative(self, points):$/;"	m	class:Geo_reference
+get_service	modules/mavproxy_map/mp_tile.py	/^        def get_service(self):$/;"	f	function:MPTile.__init__
+get_service_list	modules/mavproxy_map/mp_tile.py	/^        def get_service_list(self):$/;"	f	function:MPTile.__init__
+get_setting	modules/lib/mp_settings.py	/^    def get_setting(self, name):$/;"	m	class:MPSettings
+get_string	modules/mavproxy_smartcamera/sc_config.py	/^    def get_string(self, section, option, default):$/;"	m	class:SmartCameraConfig
+get_title	modules/lib/mp_settings.py	/^    def get_title(self):$/;"	m	class:MPSettings
+get_type	modules/mavproxy_misseditor/me_event.py	/^    def get_type(self):$/;"	m	class:MissionEditorEvent
+get_usec	modules/mavproxy_link.py	/^    def get_usec(self):$/;"	m	class:LinkModule
+get_v_distance	modules/mavproxy_adsb.py	/^    def get_v_distance(self, latlonalt1, latlonalt2):$/;"	m	class:ADSBModule
+get_xllcorner	modules/lib/ANUGA/geo_reference.py	/^    def get_xllcorner(self):$/;"	m	class:Geo_reference
+get_yllcorner	modules/lib/ANUGA/geo_reference.py	/^    def get_yllcorner(self):$/;"	m	class:Geo_reference
+get_zone	modules/lib/ANUGA/geo_reference.py	/^    def get_zone(self):$/;"	m	class:Geo_reference
+gps_bearing	modules/lib/mp_util.py	/^def gps_bearing(lat1, lon1, lat2, lon2):$/;"	f
+gps_distance	modules/lib/mp_util.py	/^def gps_distance(lat1, lon1, lat2, lon2):$/;"	f
+gps_newpos	modules/lib/mp_util.py	/^def gps_newpos(lat, lon, bearing, distance):$/;"	f
+gps_offset	modules/lib/mp_util.py	/^def gps_offset(lat, lon, east, north):$/;"	f
+graph_menus	tools/MAVExplorer.py	/^def graph_menus():$/;"	f
+graph_process	tools/MAVExplorer.py	/^def graph_process(fields, mavExpLog, mavExpFlightModeSel, mavExpSettings):$/;"	f
+ground_width	modules/mavproxy_map/mp_tile.py	/^		ground_width = max(mp_util.gps_distance(lat, lon, lat, lon+bounds[3]),$/;"	v
+ground_width	modules/mavproxy_map/mp_tile.py	/^	ground_width = opts.width$/;"	v
+handle_command	modules/mavproxy_param.py	/^    def handle_command(self, master, mpstate, args):$/;"	m	class:ParamState
+handle_data	modules/mavproxy_map/srtm.py	/^    def handle_data(self,data):$/;"	m	class:parseHTMLDirectoryListing
+handle_endtag	modules/mavproxy_map/srtm.py	/^    def handle_endtag(self, tag):$/;"	m	class:parseHTMLDirectoryListing
+handle_log_data	modules/mavproxy_log.py	/^    def handle_log_data(self, m):$/;"	m	class:LogModule
+handle_log_data_missing	modules/mavproxy_log.py	/^    def handle_log_data_missing(self):$/;"	m	class:LogModule
+handle_log_entry	modules/mavproxy_log.py	/^    def handle_log_entry(self, m):$/;"	m	class:LogModule
+handle_mavlink_packet	modules/mavproxy_param.py	/^    def handle_mavlink_packet(self, master, m):$/;"	m	class:ParamState
+handle_menu_event	modules/mavproxy_map/__init__.py	/^    def handle_menu_event(self, obj):$/;"	m	class:MapModule
+handle_msec_timestamp	modules/mavproxy_link.py	/^    def handle_msec_timestamp(self, m, master):$/;"	m	class:LinkModule
+handle_starttag	modules/mavproxy_map/srtm.py	/^    def handle_starttag(self, tag, attrs):$/;"	m	class:parseHTMLDirectoryListing
+hasRequest	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.RequestManager
+has_wxpython	modules/lib/mp_util.py	/^        has_wxpython = True$/;"	v
+has_wxpython	modules/lib/mp_util.py	/^    has_wxpython = True    $/;"	v
+has_wxpython	modules/lib/mp_util.py	/^has_wxpython = False$/;"	v
+have_graph	tools/MAVExplorer.py	/^def have_graph(name):$/;"	f
+heartbeat_check_period	mavproxy.py	/^    heartbeat_check_period = mavutil.periodic_event(0.33)$/;"	v
+heartbeat_period	mavproxy.py	/^    heartbeat_period = mavutil.periodic_event(1)$/;"	v
+help	mavproxy.py	/^                      help="MAVLink stream rate")$/;"	v
+help	mavproxy.py	/^        help='Load the specified module. Can be used multiple times, or with a comma separated list')$/;"	v
+hide_object	modules/mavproxy_map/mp_slipmap.py	/^    def hide_object(self, key, hide=True):$/;"	m	class:MPSlipMap
+icon	modules/mavproxy_map/mp_slipmap.py	/^    def icon(self, filename):$/;"	m	class:MPSlipMap
+id	modules/lib/mp_menu.py	/^    def id(self):$/;"	m	class:MPMenuItem
+id	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^                    var record = {$/;"	p	class:_tileComplete.record
+id	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^                var request = { id: id, coord: coord.copy(), url: url };$/;"	p	class:var.request
+id	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            var record = {$/;"	p	class:record
+idle_print_status	modules/mavproxy_dataflash_logger.py	/^    def idle_print_status(self):$/;"	m	class:dataflash_logger
+idle_send_acks_and_nacks	modules/mavproxy_dataflash_logger.py	/^    def idle_send_acks_and_nacks(self):$/;"	m	class:dataflash_logger
+idle_task	modules/lib/mp_module.py	/^    def idle_task(self):$/;"	m	class:MPModule
+idle_task	modules/mavproxy_DGPS.py	/^    def idle_task(self):$/;"	m	class:DGPSModule
+idle_task	modules/mavproxy_HIL.py	/^    def idle_task(self):$/;"	m	class:HILModule
+idle_task	modules/mavproxy_adsb.py	/^    def idle_task(self):$/;"	m	class:ADSBModule
+idle_task	modules/mavproxy_calibration.py	/^    def idle_task(self):$/;"	m	class:CalibrationModule
+idle_task	modules/mavproxy_dataflash_logger.py	/^    def idle_task(self):$/;"	m	class:dataflash_logger
+idle_task	modules/mavproxy_fence.py	/^    def idle_task(self):$/;"	m	class:FenceModule
+idle_task	modules/mavproxy_gasheli.py	/^    def idle_task(self):$/;"	m	class:GasHeliModule
+idle_task	modules/mavproxy_gimbal.py	/^    def idle_task(self):$/;"	m	class:GimbalModule
+idle_task	modules/mavproxy_help.py	/^    def idle_task(self):$/;"	m	class:HelpModule
+idle_task	modules/mavproxy_joystick.py	/^    def idle_task(self):$/;"	m	class:JSModule
+idle_task	modules/mavproxy_link.py	/^    def idle_task(self):$/;"	m	class:LinkModule
+idle_task	modules/mavproxy_log.py	/^    def idle_task(self):$/;"	m	class:LogModule
+idle_task	modules/mavproxy_map/__init__.py	/^    def idle_task(self):$/;"	m	class:MapModule
+idle_task	modules/mavproxy_misc.py	/^    def idle_task(self):$/;"	m	class:MiscModule
+idle_task	modules/mavproxy_nsh.py	/^    def idle_task(self):$/;"	m	class:NSHModule
+idle_task	modules/mavproxy_output.py	/^    def idle_task(self):$/;"	m	class:OutputModule
+idle_task	modules/mavproxy_param.py	/^    def idle_task(self):$/;"	m	class:ParamModule
+idle_task	modules/mavproxy_rally.py	/^    def idle_task(self):$/;"	m	class:RallyModule
+idle_task	modules/mavproxy_rc.py	/^    def idle_task(self):$/;"	m	class:RCModule
+idle_task	modules/mavproxy_terrain.py	/^    def idle_task(self):$/;"	m	class:TerrainModule
+idle_task	modules/mavproxy_tracker.py	/^    def idle_task(self):$/;"	m	class:TrackerModule
+idle_task	modules/mavproxy_wp.py	/^    def idle_task(self):$/;"	m	class:WPModule
+idle_task_not_started	modules/mavproxy_dataflash_logger.py	/^    def idle_task_not_started(self):$/;"	m	class:dataflash_logger
+idle_task_started	modules/mavproxy_dataflash_logger.py	/^    def idle_task_started(self):$/;"	m	class:dataflash_logger
+im	modules/lib/mp_image.py	/^    im = MPImage(mouse_events=True,$/;"	v
+im	modules/lib/mp_menu.py	/^    im = MPImage(mouse_events=True,$/;"	v
+image_capture_background	modules/mavproxy_smartcamera/sc_video.py	/^    def image_capture_background(self, imgcap_connection):$/;"	m	class:SmartCameraVideo
+image_coordinates	modules/lib/mp_image.py	/^    def image_coordinates(self, point):$/;"	m	class:MPImagePanel
+img	modules/lib/mp_image.py	/^    img = cv.LoadImage(args[0])$/;"	v
+img	modules/mavproxy_map/mp_slipmap_util.py	/^    def img(self):$/;"	m	class:SlipIcon
+img	modules/mavproxy_map/mp_slipmap_util.py	/^    def img(self):$/;"	m	class:SlipInfoImage
+img	modules/mavproxy_map/mp_slipmap_util.py	/^    def img(self):$/;"	m	class:SlipThumbnail
+import_package	mavproxy.py	/^def import_package(name):$/;"	f
+init	modules/mavproxy_DGPS.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_HIL.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_adsb.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_antenna.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_arm.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_auxopt.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_battery.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_calibration.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_cameraview.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_checklist.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_cmdlong.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_console.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_dataflash_logger.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_fence.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_gasheli.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_gimbal.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_gopro.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_graph.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_help.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_joystick.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_link.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_log.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_map/__init__.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_misc.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_misseditor/__init__.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_mmap/__init__.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        precise: false,$/;"	m	class:MM.MouseWheelHandler
+init	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.DoubleClickHandler.prototype = {$/;"	m	class:MM.DoubleClickHandler
+init	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.DragHandler.prototype = {$/;"	m	class:MM.DragHandler
+init	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.MouseHandler.prototype = {$/;"	m	class:MM.MouseHandler
+init	modules/mavproxy_mode.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_nsh.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_output.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_param.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_ppp.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_rally.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_rc.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_rcsetup.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_relay.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_sensors.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_serial.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_signing.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_smartcamera/__init__.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_speech.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_terrain.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_test.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_tracker.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_tuneopt.py	/^def init(mpstate):$/;"	f
+init	modules/mavproxy_wp.py	/^def init(mpstate):$/;"	f
+initMap	modules/mavproxy_mmap/mmap_app/index.html	/^function initMap() {$/;"	f
+init_plot	modules/lib/live_graph_ui.py	/^    def init_plot(self):$/;"	m	class:GraphFrame
+input_loop	mavproxy.py	/^def input_loop():$/;"	f
+input_loop	tools/MAVExplorer.py	/^def input_loop():$/;"	f
+insertLayerAt	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+is_absolute	modules/lib/ANUGA/geo_reference.py	/^    def is_absolute(self):$/;"	m	class:Geo_reference
+is_alive	modules/lib/live_graph.py	/^    def is_alive(self):$/;"	m	class:LiveGraph
+is_alive	modules/lib/mp_checklist.py	/^    def is_alive(self):$/;"	m	class:CheckUI
+is_alive	modules/lib/mp_image.py	/^    def is_alive(self):$/;"	m	class:MPImage
+is_alive	modules/lib/textconsole.py	/^    def is_alive(self):$/;"	m	class:SimpleConsole
+is_alive	modules/lib/wxconsole.py	/^    def is_alive(self):$/;"	m	class:MessageConsole
+is_alive	modules/lib/wxsettings.py	/^    def is_alive(self):$/;"	m	class:WXSettings
+is_alive	modules/mavproxy_graph.py	/^    def is_alive(self):$/;"	m	class:Graph
+is_alive	modules/mavproxy_map/mp_slipmap.py	/^    def is_alive(self):$/;"	m	class:MPSlipMap
+joymap	modules/mavproxy_joystick.py	/^joymap = {$/;"	v
+k0	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    k0 = 0.9996$/;"	v
+key	modules/mavproxy_map/mp_tile.py	/^	def key(self):$/;"	m	class:TileInfo
+key	modules/mavproxy_mmap/mmap_app/bing.js	/^MM.BingProvider.prototype = {$/;"	p	class:MM.BingProvider
+kill_speech_dispatcher	modules/mavproxy_speech.py	/^    def kill_speech_dispatcher(self):$/;"	m	class:SpeechModule
+lastHash	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        map: null,$/;"	p	class:MM.Hash
+lastTouchedTime	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^                id: key,$/;"	p	class:record
+last_change	modules/lib/mp_settings.py	/^    def last_change(self):$/;"	m	class:MPSettings
+last_clist	modules/lib/rline.py	/^last_clist = None$/;"	v
+lat	modules/mavproxy_map/mp_elevation.py	/^    lat = opts.lat$/;"	v	class:ElevationModel
+lat	modules/mavproxy_map/mp_elevation.py	/^    lat = opts.lat+0.001$/;"	v	class:ElevationModel
+lat	modules/mavproxy_map/mp_elevation.py	/^    lat = opts.lat-0.001$/;"	v	class:ElevationModel
+lat	modules/mavproxy_map/mp_tile.py	/^		lat = bounds[0]+bounds[2]$/;"	v
+lat	modules/mavproxy_map/mp_tile.py	/^	lat = opts.lat$/;"	v
+lat	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.Location.prototype = {$/;"	p	class:MM.Location
+latlon	modules/lib/mp_util.py	/^    def latlon(self):$/;"	m	class:UTMGrid
+latlon_round	modules/lib/mp_util.py	/^def latlon_round(latlon, spacing=1000):$/;"	f
+latlon_to_grid	modules/lib/mp_util.py	/^def latlon_to_grid(latlon):$/;"	f
+layers	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        coordLimits: null,     \/\/ Array of [ topLeftOuter, bottomLeftInner ] MM.Coordinates$/;"	p	class:MM.Map
+left	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Coordinate
+level	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            var level = document.createElement('div');$/;"	v
+levels	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        tiles: null,$/;"	p	class:MM.Layer
+limit_dragpos	modules/lib/mp_image.py	/^    def limit_dragpos(self):$/;"	m	class:MPImagePanel
+line	modules/lib/rline.py	/^        line = raw_input(rl.prompt)$/;"	v	class:.mystate
+link_add	modules/mavproxy_link.py	/^    def link_add(self, device):$/;"	m	class:LinkModule
+list	modules/lib/mp_settings.py	/^    def list(self):$/;"	m	class:MPSettings
+list_fence	modules/mavproxy_fence.py	/^    def list_fence(self, filename):$/;"	m	class:FenceModule
+list_rally_points	modules/mavproxy_rally.py	/^    def list_rally_points(self):$/;"	m	class:RallyModule
+livegraph	modules/lib/live_graph.py	/^    livegraph = LiveGraph(['sin(t)', 'cos(t)', 'sin(t+1)',$/;"	v
+load	modules/lib/mp_settings.py	/^    def load(self, filename):$/;"	m	class:MPSettings
+loadFileList	modules/mavproxy_map/srtm.py	/^    def loadFileList(self):$/;"	m	class:SRTMDownloader
+load_fence	modules/mavproxy_fence.py	/^    def load_fence(self, filename):$/;"	m	class:FenceModule
+load_graph_xml	tools/MAVExplorer.py	/^def load_graph_xml(xml, filename, load_all=False):$/;"	f
+load_graphs	tools/MAVExplorer.py	/^def load_graphs():$/;"	f
+load_module	mavproxy.py	/^def load_module(modname, quiet=False):$/;"	f
+load_tile	modules/mavproxy_map/mp_tile.py	/^	def load_tile(self, tile):$/;"	m	class:MPTile
+load_tile_lowres	modules/mavproxy_map/mp_tile.py	/^	def load_tile_lowres(self, tile):$/;"	m	class:MPTile
+load_waypoints	modules/mavproxy_wp.py	/^    def load_waypoints(self, filename):$/;"	m	class:WPModule
+load_wp_file_pushed	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def load_wp_file_pushed(self, event):  # wxGlade: MissionEditorFrame.<event_handler>$/;"	m	class:MissionEditorFrame
+loadfile	tools/MAVExplorer.py	/^def loadfile(args):    $/;"	f
+loadingBay	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.RequestManager.prototype = {$/;"	p	class:MM.RequestManager
+locationCoordinate	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+locationCoordinate	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Projection
+locationPoint	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+locations	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        maxDoubleTapDelay: 350,$/;"	p	class:MM.TouchHandler
+log_download	modules/mavproxy_log.py	/^    def log_download(self, log_num, filename):$/;"	m	class:LogModule
+log_download_all	modules/mavproxy_log.py	/^    def log_download_all(self):$/;"	m	class:LogModule
+log_download_next	modules/mavproxy_log.py	/^    def log_download_next(self):$/;"	m	class:LogModule
+log_paths	mavproxy.py	/^def log_paths():$/;"	f
+log_status	modules/mavproxy_log.py	/^    def log_status(self):$/;"	m	class:LogModule
+log_writer	mavproxy.py	/^def log_writer():$/;"	f
+logdir	modules/lib/mp_module.py	/^    def logdir(self):$/;"	m	class:MPModule
+lon	modules/mavproxy_map/mp_elevation.py	/^    lon = opts.lon$/;"	v	class:ElevationModel
+lon	modules/mavproxy_map/mp_elevation.py	/^    lon = opts.lon+0.001$/;"	v	class:ElevationModel
+lon	modules/mavproxy_map/mp_elevation.py	/^    lon = opts.lon-0.001$/;"	v	class:ElevationModel
+lon	modules/mavproxy_map/mp_tile.py	/^		lon = bounds[1]$/;"	v
+lon	modules/mavproxy_map/mp_tile.py	/^	lon = opts.lon$/;"	v
+lon	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        lat: 0,$/;"	p	class:MM.Location
+main	modules/lib/optparse_gui/__init__.py	/^def main():$/;"	f
+main	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def main(self):$/;"	m	class:SmartCamera_SonyQX
+main	modules/mavproxy_smartcamera/sc_config.py	/^    def main(self):$/;"	m	class:SmartCameraConfig
+main	modules/mavproxy_smartcamera/sc_video.py	/^    def main(self):$/;"	m	class:SmartCameraVideo
+main	modules/mavproxy_smartcamera/sc_webcam.py	/^    def main(self):$/;"	m	class:SmartCameraWebCam
+main_loop	mavproxy.py	/^def main_loop():$/;"	f
+main_loop	tools/MAVExplorer.py	/^def main_loop():$/;"	f
+makeIPCQueue	modules/lib/multiprocessing_queue.py	/^def makeIPCQueue(*args, **kwargs):$/;"	f
+make_column_label	modules/mavproxy_misseditor/me_defines.py	/^def make_column_label(command_name, description, default):$/;"	f
+make_format	modules/lib/grapher.py	/^    def make_format(self, current, other):$/;"	m	class:MavGraph
+makefile	modules/mavproxy_smartcamera/ssdp.py	/^        def makefile(self, *args, **kw):$/;"	m	class:SSDPResponse._FakeSocket
+map	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.Hash.prototype = {$/;"	p	class:MM.Hash
+map	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.Layer.prototype = {$/;"	p	class:MM.Layer
+map_callback	modules/mavproxy_map/__init__.py	/^    def map_callback(self, obj):$/;"	m	class:MapModule
+map_process	tools/MAVExplorer.py	/^def map_process(args, MAVExpLog, MAVExpFlightModes, MAVExpSettings):$/;"	f
+mappy	modules/mavproxy_map/GAreader.py	/^    mappy = ERMap()$/;"	v
+master	mavproxy.py	/^    def master(self):$/;"	m	class:MPState
+master	modules/lib/mp_module.py	/^    def master(self):$/;"	m	class:MPModule
+master_callback	modules/mavproxy_link.py	/^    def master_callback(self, m, master):$/;"	m	class:LinkModule
+master_send_callback	modules/mavproxy_link.py	/^    def master_send_callback(self, m, master):$/;"	m	class:LinkModule
+mav_param	modules/lib/mp_module.py	/^    def mav_param(self):$/;"	m	class:MPModule
+mavflightview	tools/mavflightview.py	/^def mavflightview(filename, options):$/;"	f
+mavflightview_mav	tools/mavflightview.py	/^def mavflightview_mav(mlog, options=None, title=None):$/;"	f
+mavflightview_options	tools/mavflightview.py	/^class mavflightview_options(object):$/;"	c
+mavlink_packet	modules/lib/mp_module.py	/^    def mavlink_packet(self, packet):$/;"	m	class:MPModule
+mavlink_packet	modules/mavproxy_HIL.py	/^    def mavlink_packet(self, m):$/;"	m	class:HILModule
+mavlink_packet	modules/mavproxy_adsb.py	/^    def mavlink_packet(self, m):$/;"	m	class:ADSBModule
+mavlink_packet	modules/mavproxy_antenna.py	/^    def mavlink_packet(self, m):$/;"	m	class:AntennaModule
+mavlink_packet	modules/mavproxy_battery.py	/^    def mavlink_packet(self, m):$/;"	m	class:BatteryModule
+mavlink_packet	modules/mavproxy_calibration.py	/^    def mavlink_packet(self, m):$/;"	m	class:CalibrationModule
+mavlink_packet	modules/mavproxy_cameraview.py	/^    def mavlink_packet(self, m):$/;"	m	class:CameraViewModule
+mavlink_packet	modules/mavproxy_checklist.py	/^    def mavlink_packet(self, msg):$/;"	m	class:ChecklistModule
+mavlink_packet	modules/mavproxy_console.py	/^    def mavlink_packet(self, msg):$/;"	m	class:ConsoleModule
+mavlink_packet	modules/mavproxy_dataflash_logger.py	/^    def mavlink_packet(self, m):$/;"	m	class:dataflash_logger
+mavlink_packet	modules/mavproxy_fence.py	/^    def mavlink_packet(self, m):$/;"	m	class:FenceModule
+mavlink_packet	modules/mavproxy_gasheli.py	/^    def mavlink_packet(self, msg):$/;"	m	class:GasHeliModule
+mavlink_packet	modules/mavproxy_gimbal.py	/^    def mavlink_packet(self, m):$/;"	m	class:GimbalModule
+mavlink_packet	modules/mavproxy_graph.py	/^    def mavlink_packet(self, msg):$/;"	m	class:GraphModule
+mavlink_packet	modules/mavproxy_help.py	/^    def mavlink_packet(self, m):$/;"	m	class:HelpModule
+mavlink_packet	modules/mavproxy_log.py	/^    def mavlink_packet(self, m):$/;"	m	class:LogModule
+mavlink_packet	modules/mavproxy_map/__init__.py	/^    def mavlink_packet(self, m):$/;"	m	class:MapModule
+mavlink_packet	modules/mavproxy_misseditor/__init__.py	/^    def mavlink_packet(self, m):$/;"	m	class:MissionEditorModule
+mavlink_packet	modules/mavproxy_mmap/__init__.py	/^    def mavlink_packet(self, m):$/;"	m	class:MMapModule
+mavlink_packet	modules/mavproxy_nsh.py	/^    def mavlink_packet(self, m):$/;"	m	class:NSHModule
+mavlink_packet	modules/mavproxy_param.py	/^    def mavlink_packet(self, m):$/;"	m	class:ParamModule
+mavlink_packet	modules/mavproxy_ppp.py	/^    def mavlink_packet(self, m):$/;"	m	class:PPPModule
+mavlink_packet	modules/mavproxy_rally.py	/^    def mavlink_packet(self, m):$/;"	m	class:RallyModule
+mavlink_packet	modules/mavproxy_rcsetup.py	/^    def mavlink_packet(self, m):$/;"	m	class:RCSetupModule
+mavlink_packet	modules/mavproxy_sensors.py	/^    def mavlink_packet(self, m):$/;"	m	class:SensorsModule
+mavlink_packet	modules/mavproxy_serial.py	/^    def mavlink_packet(self, m):$/;"	m	class:SerialModule
+mavlink_packet	modules/mavproxy_smartcamera/__init__.py	/^    def mavlink_packet(self, m):$/;"	m	class:SmartCameraModule
+mavlink_packet	modules/mavproxy_terrain.py	/^    def mavlink_packet(self, msg):$/;"	m	class:TerrainModule
+mavlink_packet	modules/mavproxy_test.py	/^    def mavlink_packet(self, m):$/;"	m	class:TestModule
+mavlink_packet	modules/mavproxy_tracker.py	/^    def mavlink_packet(self, m):$/;"	m	class:TrackerModule
+mavlink_packet	modules/mavproxy_wp.py	/^    def mavlink_packet(self, m):$/;"	m	class:WPModule
+mavmemlog	modules/lib/mavmemlog.py	/^class mavmemlog(mavutil.mavfile):$/;"	c
+maxDoubleTapDelay	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        maxTapDistance: 30,$/;"	p	class:MM.TouchHandler
+maxLevel	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            var maxLevel = startCoord.zoom + 2;$/;"	v
+maxOpenRequests	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        openRequestCount: null,$/;"	p	class:MM.RequestManager
+maxStepsOut	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            var maxStepsOut = tile_coord.zoom;$/;"	v
+maxTapDistance	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        maxTapTime: 250,$/;"	p	class:MM.TouchHandler
+maxTapTime	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.TouchHandler.prototype = {$/;"	p	class:MM.TouchHandler
+maxTileCacheSize	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        tileCacheSize: null,$/;"	p	class:MM.Layer
+menu	modules/lib/mp_menu.py	/^    menu = MPMenuTop([MPMenuSubMenu('&File',$/;"	v
+menu_callback	modules/mavproxy_console.py	/^    def menu_callback(self, m):$/;"	m	class:ConsoleModule
+menu_callback	tools/MAVExplorer.py	/^def menu_callback(m):$/;"	f
+mg	modules/lib/grapher.py	/^    mg = MavGraph()$/;"	v
+minLevel	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            var minLevel = startCoord.zoom - 5;$/;"	v
+miss_cmds	modules/mavproxy_misseditor/me_defines.py	/^miss_cmds = {}$/;"	v
+missionEditor	modules/mavproxy_misseditor/missionEditorFrame.py	/^    missionEditor = (None, wx.ID_ANY, "")$/;"	v
+mkdir_p	mavproxy.py	/^def mkdir_p(dir):$/;"	f
+mkdir_p	modules/lib/mp_util.py	/^def mkdir_p(dir):$/;"	f
+mode_mapping_antenna	modules/mavproxy_tracker.py	/^mode_mapping_antenna = {$/;"	v
+module	mavproxy.py	/^    def module(self, name):$/;"	m	class:MPState
+module	modules/lib/mp_module.py	/^    def module(self, name):$/;"	m	class:MPModule
+mouseDown	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.DragHandler
+mouseMove	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.DragHandler
+mouseUp	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.DragHandler
+mouseWheel	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.MouseWheelHandler
+move_fencepoint	modules/mavproxy_map/__init__.py	/^    def move_fencepoint(self, key, selection_index):$/;"	m	class:MapModule
+move_mission	modules/mavproxy_map/__init__.py	/^    def move_mission(self, key, selection_index):$/;"	m	class:MapModule
+move_rally	modules/mavproxy_map/__init__.py	/^    def move_rally(self, key):$/;"	m	class:MapModule
+mp_icon	modules/mavproxy_map/mp_tile.py	/^def mp_icon(filename):$/;"	f
+mpstate	mavproxy.py	/^    mpstate = MPState()$/;"	v
+mpstate	modules/mavproxy_joystick.py	/^mpstate = None$/;"	v
+msg_period	mavproxy.py	/^    msg_period = mavutil.periodic_event(1.0\/15)$/;"	v
+mt	modules/mavproxy_map/mp_tile.py	/^	mt = MPTile(debug=opts.debug, service=opts.service,$/;"	v
+mu	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    mu = M\/(a*(1-eccSquared\/4-3*eccSquared*eccSquared\/64-5*eccSquared*eccSquared*eccSquared\/256))$/;"	v
+mycmp	modules/mavproxy_help.py	/^    def mycmp(self, version1, version2):$/;"	m	class:HelpModule
+mystate	modules/lib/rline.py	/^    class mystate(object):$/;"	c
+name	modules/mavproxy_misseditor/me_defines.py	/^    name = enum.name$/;"	v
+name	modules/mavproxy_misseditor/me_defines.py	/^    name = name.replace('MAV_CMD_','')$/;"	v
+new_log_filepath	modules/mavproxy_dataflash_logger.py	/^    def new_log_filepath(self):$/;"	m	class:dataflash_logger
+next_flightmode_colour	modules/lib/grapher.py	/^    def next_flightmode_colour(self):$/;"	m	class:MavGraph
+normalize	modules/mavproxy_help.py	/^        def normalize(v):$/;"	f	function:HelpModule.mycmp
+north	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.Extent.prototype = {$/;"	p	class:MM.Extent
+northEast	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Extent
+northWest	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Extent
+obj	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            obj['e'+type+fn] = fn;$/;"	f
+object_container	modules/lib/mp_util.py	/^class object_container:$/;"	c
+onMapChange	modules/mavproxy_mmap/mmap_app/index.html	/^    function onMapChange() {$/;"	f
+on_Button	modules/lib/mp_checklist.py	/^    def on_Button( self, event ):$/;"	m	class:ChecklistFrame
+on_ButtonLast	modules/lib/mp_checklist.py	/^    def on_ButtonLast( self, event ):$/;"	m	class:ChecklistFrame
+on_apply	modules/lib/wxsettings_ui.py	/^    def on_apply(self, event):$/;"	m	class:TabbedDialog
+on_cancel	modules/lib/wxsettings_ui.py	/^    def on_cancel(self, event):$/;"	m	class:TabbedDialog
+on_close_button	modules/lib/live_graph_ui.py	/^    def on_close_button(self, event):$/;"	m	class:GraphFrame
+on_drag_event	modules/lib/mp_image.py	/^    def on_drag_event(self, event):$/;"	m	class:MPImagePanel
+on_event	modules/lib/mp_image.py	/^    def on_event(self, event):$/;"	m	class:MPImagePanel
+on_focus	modules/lib/mp_image.py	/^    def on_focus(self, event):$/;"	m	class:MPImagePanel
+on_focus	modules/mavproxy_map/mp_slipmap_ui.py	/^    def on_focus(self, event):$/;"	m	class:MPSlipMapPanel
+on_idle	modules/lib/live_graph_ui.py	/^    def on_idle(self, event):$/;"	m	class:GraphFrame
+on_idle	modules/lib/mp_image.py	/^    def on_idle(self, event):$/;"	m	class:MPImageFrame
+on_idle	modules/lib/wxconsole_ui.py	/^    def on_idle(self, event):$/;"	m	class:ConsoleFrame
+on_idle	modules/mavproxy_map/mp_slipmap_ui.py	/^    def on_idle(self, event):$/;"	m	class:MPSlipMapFrame
+on_key_down	modules/mavproxy_map/mp_slipmap_ui.py	/^    def on_key_down(self, event):$/;"	m	class:MPSlipMapPanel
+on_key_event	modules/lib/mp_image.py	/^    def on_key_event(self, event):$/;"	m	class:MPImagePanel
+on_load	modules/lib/wxsettings_ui.py	/^    def on_load(self, event):$/;"	m	class:TabbedDialog
+on_loiter_dir_cb_change	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def on_loiter_dir_cb_change(self, event):  # wxGlade: MissionEditorFrame.<event_handler>$/;"	m	class:MissionEditorFrame
+on_loiter_rad_change	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def on_loiter_rad_change(self, event):  # wxGlade: MissionEditorFrame.<event_handler>$/;"	m	class:MissionEditorFrame
+on_loiter_rad_enter	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def on_loiter_rad_enter(self, event):  # wxGlade: MissionEditorFrame.<event_handler>$/;"	m	class:MissionEditorFrame
+on_menu	modules/lib/mp_image.py	/^    def on_menu(self, event):$/;"	m	class:MPImagePanel
+on_menu	modules/lib/wxconsole_ui.py	/^    def on_menu(self, event):$/;"	m	class:ConsoleFrame
+on_menu	modules/mavproxy_map/mp_slipmap_ui.py	/^    def on_menu(self, event):$/;"	m	class:MPSlipMapFrame
+on_mission_grid_cell_changed	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def on_mission_grid_cell_changed(self, event):  # wxGlade: MissionEditorFrame.<event_handler>$/;"	m	class:MissionEditorFrame
+on_mission_grid_cell_left_click	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def on_mission_grid_cell_left_click(self, event):  # wxGlade: MissionEditorFrame.<event_handler>$/;"	m	class:MissionEditorFrame
+on_mission_grid_cell_select	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def on_mission_grid_cell_select(self, event):  # wxGlade: MissionEditorFrame.<event_handler>$/;"	m	class:MissionEditorFrame
+on_mouse	modules/mavproxy_map/mp_slipmap_ui.py	/^    def on_mouse(self, event):$/;"	m	class:MPSlipMapPanel
+on_mouse_event	modules/lib/mp_image.py	/^    def on_mouse_event(self, event):$/;"	m	class:MPImagePanel
+on_mouse_wheel	modules/lib/mp_image.py	/^    def on_mouse_wheel(self, event):$/;"	m	class:MPImagePanel
+on_mouse_wheel	modules/mavproxy_map/mp_slipmap_ui.py	/^    def on_mouse_wheel(self, event):$/;"	m	class:MPSlipMapPanel
+on_paint	modules/lib/mp_widgets.py	/^    def on_paint(self, event):$/;"	m	class:ImagePanel
+on_pause_button	modules/lib/live_graph_ui.py	/^    def on_pause_button(self, event):$/;"	m	class:GraphFrame
+on_redraw_timer	modules/lib/live_graph_ui.py	/^    def on_redraw_timer(self, event):$/;"	m	class:GraphFrame
+on_redraw_timer	modules/lib/mp_image.py	/^    def on_redraw_timer(self, event):$/;"	m	class:MPImagePanel
+on_redraw_timer	modules/mavproxy_map/mp_slipmap_ui.py	/^    def on_redraw_timer(self, event):$/;"	m	class:MPSlipMapPanel
+on_save	modules/lib/wxsettings_ui.py	/^    def on_save(self, event):$/;"	m	class:TabbedDialog
+on_size	modules/lib/mp_image.py	/^    def on_size(self, event):$/;"	m	class:MPImagePanel
+on_size	modules/mavproxy_map/mp_slipmap_ui.py	/^    def on_size(self, event):$/;"	m	class:MPSlipMapPanel
+on_timer	modules/lib/mp_checklist.py	/^    def on_timer(self, event, notebook):$/;"	m	class:ChecklistFrame
+on_timer	modules/lib/wxconsole_ui.py	/^    def on_timer(self, event):$/;"	m	class:ConsoleFrame
+on_update_pause_button	modules/lib/live_graph_ui.py	/^    def on_update_pause_button(self, event):$/;"	m	class:GraphFrame
+on_wp_default_alt_change	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def on_wp_default_alt_change(self, event):  # wxGlade: MissionEditorFrame.<event_handler>$/;"	m	class:MissionEditorFrame
+on_wp_default_alt_enter	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def on_wp_default_alt_enter(self, event):  # wxGlade: MissionEditorFrame.<event_handler>$/;"	m	class:MissionEditorFrame
+on_wp_radius_changed	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def on_wp_radius_changed(self, event):  # wxGlade: MissionEditorFrame.<event_handler>$/;"	m	class:MissionEditorFrame
+on_wp_radius_enter	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def on_wp_radius_enter(self, event):  # wxGlade: MissionEditorFrame.<event_handler>$/;"	m	class:MissionEditorFrame
+openRequestCount	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        requestQueue: null,$/;"	p	class:MM.RequestManager
+open_telemetry_logs	mavproxy.py	/^def open_telemetry_logs(logpath_telem, logpath_telem_raw):$/;"	f
+open_video_writer	modules/mavproxy_smartcamera/sc_video.py	/^    def open_video_writer(self):$/;"	m	class:SmartCameraVideo
+osxQueue	modules/lib/multiprocessing_queue.py	/^class osxQueue(Queue):$/;"	c
+owner	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.CallbackManager.prototype = {$/;"	p	class:MM.CallbackManager
+packet_is_for_me	modules/mavproxy_dataflash_logger.py	/^    def packet_is_for_me(self, m):$/;"	m	class:dataflash_logger
+panBy	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+panDown	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        panRight: function() { return this.panBy(-100, 0); },$/;"	m	class:MM.Map
+panLeft	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+panRight	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        panLeft: function() { return this.panBy(100, 0); },$/;"	m	class:MM.Map
+panUp	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        panDown: function() { return this.panBy(0, -100); },$/;"	m	class:MM.Map
+panel	modules/lib/wxsettings_ui.py	/^    def panel(self, tab_name):$/;"	m	class:TabbedDialog
+param_help	modules/mavproxy_param.py	/^    def param_help(self, args):$/;"	m	class:ParamState
+param_help_download	modules/mavproxy_param.py	/^    def param_help_download(self):$/;"	m	class:ParamState
+param_set	mavproxy.py	/^def param_set(name, value, retries=3):$/;"	f
+param_set	modules/lib/mp_module.py	/^    def param_set(self, name, value, retries=3):$/;"	m	class:MPModule
+parent	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        map: null, \/\/ TODO: remove$/;"	p	class:MM.Layer
+parent	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.Map.prototype = {$/;"	p	class:MM.Map
+parseFilename	modules/mavproxy_map/srtm.py	/^    def parseFilename(self, filename):$/;"	m	class:SRTMDownloader
+parseHTMLDirectoryListing	modules/mavproxy_map/srtm.py	/^class parseHTMLDirectoryListing(HTMLParser):$/;"	c
+parseHash	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        lastHash: null,$/;"	m	class:MM.Hash
+parse_args	modules/lib/optparse_gui/__init__.py	/^    def parse_args( self, args = None, values = None ):$/;"	m	class:OptionParser
+parser	mavproxy.py	/^    parser = OptionParser("mavproxy.py [options]")$/;"	v
+parser	modules/lib/grapher.py	/^    parser = ArgumentParser(description=__doc__)$/;"	v
+parser	modules/lib/mp_image.py	/^    parser = OptionParser("mp_image.py <file>")$/;"	v
+parser	modules/mavproxy_map/mp_elevation.py	/^    parser = OptionParser("mp_elevation.py [options]")$/;"	v	class:ElevationModel
+parser	modules/mavproxy_map/mp_slipmap.py	/^    parser = OptionParser("mp_slipmap.py [options]")$/;"	v
+parser	modules/mavproxy_map/mp_tile.py	/^	parser = OptionParser("mp_tile.py [options]")$/;"	v
+parser	tools/mavflightview.py	/^    parser = OptionParser("mavflightview.py [options]")$/;"	v
+passphrase_to_key	modules/mavproxy_signing.py	/^    def passphrase_to_key(self, passphrase):$/;"	m	class:SigningModule
+path	modules/mavproxy_map/mp_tile.py	/^	def path(self):$/;"	m	class:TileInfo
+perform_threat_detection	modules/mavproxy_adsb.py	/^    def perform_threat_detection(self):$/;"	m	class:ADSBModule
+periodic_tasks	mavproxy.py	/^def periodic_tasks():$/;"	f
+phi1	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    phi1 = phi1Rad*_rad2deg;$/;"	v
+phi1Rad	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    phi1Rad = (mu + (3*e1\/2-27*e1*e1*e1\/32)*sin(2*mu)$/;"	v
+pixel_coords	modules/mavproxy_map/mp_slipmap_ui.py	/^    def pixel_coords(self, latlon, reverse=False):$/;"	m	class:MPSlipMapPanel
+pixel_coords	tools/mavflightview.py	/^def pixel_coords(latlon, ground_width=0, mt=None, topleft=None, width=None):$/;"	f
+pixels_to_angle_x	modules/mavproxy_smartcamera/sc_video.py	/^    def pixels_to_angle_x(self, num_pixels):$/;"	m	class:SmartCameraVideo
+pixels_to_angle_y	modules/mavproxy_smartcamera/sc_video.py	/^    def pixels_to_angle_y(self, num_pixels):$/;"	m	class:SmartCameraVideo
+plotit	modules/lib/grapher.py	/^    def plotit(self, x, y, fields, colors=[]):$/;"	m	class:MavGraph
+pointCoordinate	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+pointLocation	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+poll	modules/lib/mp_image.py	/^    def poll(self):$/;"	m	class:MPImage
+polygon_bounds	modules/lib/mp_util.py	/^def polygon_bounds(points):$/;"	f
+polygon_load	modules/lib/mp_util.py	/^def polygon_load(filename):$/;"	f
+popup	modules/lib/mp_menu.py	/^    popup = MPMenuSubMenu('A Popup',$/;"	v
+power_status_update	modules/mavproxy_battery.py	/^    def power_status_update(self, POWER_STATUS):$/;"	m	class:BatteryModule
+ppp_read	modules/mavproxy_ppp.py	/^    def ppp_read(self, ppp_fd):$/;"	m	class:PPPModule
+precise	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.MouseWheelHandler.prototype = {$/;"	p	class:MM.MouseWheelHandler
+prep_new_row	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def prep_new_row(self, row_num):$/;"	m	class:MissionEditorFrame
+prep_new_rows	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def prep_new_rows(self, start_row, num_rows):$/;"	m	class:MissionEditorFrame
+prevCenter	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            var prevCenter = MM.Point.interpolate(l0, l1, 0.5);$/;"	v
+previousMM	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^var previousMM = MM;$/;"	v
+printBoundingBox	modules/mavproxy_map/GAreader.py	/^    def printBoundingBox(self):$/;"	m	class:ERMap
+print_cal_usage	modules/mavproxy_rcsetup.py	/^    def print_cal_usage(self):$/;"	m	class:RCSetupModule
+print_usage	modules/mavproxy_fence.py	/^    def print_usage(self):$/;"	m	class:FenceModule
+print_usage	modules/mavproxy_help.py	/^    def print_usage(self):$/;"	m	class:HelpModule
+print_usage	modules/mavproxy_rally.py	/^    def print_usage(self):$/;"	m	class:RallyModule
+process	modules/lib/grapher.py	/^    def process(self, block=True):$/;"	m	class:MavGraph
+processQueue	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.RequestManager
+process_master	mavproxy.py	/^def process_master(m):$/;"	f
+process_mav	modules/lib/grapher.py	/^    def process_mav(self, mlog, timeshift):$/;"	m	class:MavGraph
+process_mavlink	mavproxy.py	/^def process_mavlink(slave):$/;"	f
+process_stdin	mavproxy.py	/^def process_stdin(line):$/;"	f
+process_stdin	tools/MAVExplorer.py	/^def process_stdin(line):$/;"	f
+process_waypoint_request	modules/mavproxy_wp.py	/^    def process_waypoint_request(self, m, master):$/;"	m	class:WPModule
+progress_bar	tools/MAVExplorer.py	/^def progress_bar(pct):$/;"	f
+project	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Projection
+projection	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        dimensions: null,      \/\/ MM.Point with x\/y size of parent element$/;"	p	class:MM.Map
+provider	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        maxTileCacheSize: null,$/;"	p	class:MM.Layer
+provider.getTile	modules/mavproxy_mmap/mmap_app/bing.js	/^                var serverSalt = Math.floor(Math.random() * 4);$/;"	f	function:window
+put	modules/lib/multiprocessing_queue.py	/^        def put(self, *args, **kwargs):$/;"	m	class:osxQueue
+qnh_estimate	modules/mavproxy_misc.py	/^    def qnh_estimate(self):$/;"	m	class:MiscModule
+qsize	modules/lib/multiprocessing_queue.py	/^        def qsize(self):$/;"	m	class:osxQueue
+quadKey	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.TemplatedMapProvider.prototype = {$/;"	m	class:MM.TemplatedMapProvider
+quit_handler	mavproxy.py	/^    def quit_handler(signum = None, frame = None):$/;"	f
+radius_of_earth	modules/lib/mp_util.py	/^radius_of_earth = 6378100.0 # in meters$/;"	v
+rawProject	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        transformation: null,$/;"	m	class:MM.Projection
+rawProject	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.LinearProjection.prototype = {$/;"	m	class:MM.LinearProjection
+rawProject	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.MercatorProjection.prototype = {$/;"	m	class:MM.MercatorProjection
+rawUnproject	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.LinearProjection
+rawUnproject	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.MercatorProjection
+rawUnproject	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Projection
+re_center	modules/mavproxy_map/mp_slipmap_ui.py	/^    def re_center(self, x, y, lat, lon):$/;"	m	class:MPSlipMapPanel
+read	modules/mavproxy_smartcamera/sc_config.py	/^    def read(self):$/;"	m	class:SmartCameraConfig
+read_ASCII	modules/lib/ANUGA/geo_reference.py	/^    def read_ASCII(self, fd, read_title=None):$/;"	m	class:Geo_reference
+read_NetCDF	modules/lib/ANUGA/geo_reference.py	/^    def read_NetCDF(self, infile):$/;"	m	class:Geo_reference
+read_ermapper	modules/mavproxy_map/GAreader.py	/^    def read_ermapper(self, ifile):$/;"	m	class:ERMap
+read_ermapper_data	modules/mavproxy_map/GAreader.py	/^    def read_ermapper_data(self, ifile, data_format = numpy.float32, offset=0):$/;"	m	class:ERMap
+read_ermapper_header	modules/mavproxy_map/GAreader.py	/^    def read_ermapper_header(self, ifile):$/;"	m	class:ERMap
+read_waypoints	modules/mavproxy_misseditor/__init__.py	/^    def read_waypoints(self):$/;"	m	class:MissionEditorModule
+read_wp_pushed	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def read_wp_pushed(self, event):  # wxGlade: MissionEditorFrame.<event_handler>$/;"	m	class:MissionEditorFrame
+recentTiles	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        provider: null,$/;"	p	class:MM.Layer
+recentTilesById	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        recentTiles: null,$/;"	p	class:MM.Layer
+reconcile_zones	modules/lib/ANUGA/geo_reference.py	/^    def reconcile_zones(self, other):$/;"	m	class:Geo_reference
+recv_msg	modules/lib/mavmemlog.py	/^    def recv_msg(self):$/;"	m	class:mavmemlog
+redfearn	modules/lib/ANUGA/redfearn.py	/^def redfearn(lat, lon, false_easting=None, false_northing=None,$/;"	f
+redisplay	modules/lib/rline.py	/^    def redisplay(self):$/;"	m	class:rline
+redisplay	modules/lib/rline.py	/^    redisplay = readline.redisplay$/;"	v
+redisplay	modules/lib/rline.py	/^redisplay = None$/;"	v
+redraw	modules/lib/mp_image.py	/^    def redraw(self):$/;"	m	class:MPImagePanel
+redraw_map	modules/mavproxy_map/mp_slipmap_ui.py	/^    def redraw_map(self):$/;"	m	class:MPSlipMapPanel
+reduce_by_flightmodes	modules/lib/mavmemlog.py	/^    def reduce_by_flightmodes(self, flightmode_selections):$/;"	m	class:mavmemlog
+refit	modules/lib/wxsettings_ui.py	/^    def refit(self):$/;"	m	class:TabbedDialog
+refresh_time	modules/mavproxy_map/mp_tile.py	/^	def refresh_time(self):$/;"	m	class:TileInfo
+register_cameras	modules/mavproxy_smartcamera/sc_main.py	/^    def register_cameras(self):$/;"	m	class:SmartCamera
+remove	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.DoubleClickHandler
+remove	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.DragHandler
+remove	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.MouseHandler
+remove	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:innerDiv.MM.MouseWheelHandler
+removeCallback	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.CallbackManager
+removeCallback	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+removeCallback	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.RequestManager
+removeLayer	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+removeLayerAt	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+remove_fencepoint	modules/mavproxy_map/__init__.py	/^    def remove_fencepoint(self, key, selection_index):$/;"	m	class:MapModule
+remove_mission	modules/mavproxy_map/__init__.py	/^    def remove_mission(self, key, selection_index):$/;"	m	class:MapModule
+remove_object	modules/mavproxy_map/mp_slipmap.py	/^    def remove_object(self, key):$/;"	m	class:MPSlipMap
+remove_object	modules/mavproxy_map/mp_slipmap_ui.py	/^    def remove_object(self, key):$/;"	m	class:MPSlipMapFrame
+remove_rally	modules/mavproxy_map/__init__.py	/^    def remove_rally(self, key):$/;"	m	class:MapModule
+report	modules/mavproxy_sensors.py	/^    def report(self, name, ok, msg=None, deltat=20):$/;"	m	class:SensorsModule
+report_altitude	modules/mavproxy_link.py	/^    def report_altitude(self, altitude):$/;"	m	class:LinkModule
+report_change	modules/mavproxy_sensors.py	/^    def report_change(self, name, value, maxdiff=1, deltat=10):$/;"	m	class:SensorsModule
+requestManager	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        levels: null,$/;"	p	class:MM.Layer
+requestQueue	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        requestsById: null,$/;"	p	class:MM.RequestManager
+requestRedraw	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        _redrawTimer: undefined,$/;"	m	class:MM.Map
+requestTile	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.RequestManager
+requestsById	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        loadingBay: null,$/;"	p	class:MM.RequestManager
+reset	modules/mavproxy_log.py	/^    def reset(self):$/;"	m	class:LogModule
+rewind	modules/lib/mavmemlog.py	/^    def rewind(self):$/;"	m	class:mavmemlog
+right	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Coordinate
+rl	modules/lib/rline.py	/^    rl = rline("test> ", state)$/;"	v
+rline	modules/lib/rline.py	/^class rline(object):$/;"	c
+rline_mpstate	modules/lib/rline.py	/^rline_mpstate = None$/;"	v
+rotate_drone	modules/mavproxy_mmap/mmap_app/index.html	/^function rotate_drone(deg){$/;"	f
+row	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.Coordinate.prototype = {$/;"	p	class:MM.Coordinate
+rule_expand	modules/lib/rline.py	/^def rule_expand(component, text):$/;"	f
+rule_match	modules/lib/rline.py	/^def rule_match(component, cmd):$/;"	f
+run	modules/mavproxy_misseditor/__init__.py	/^    def run(self):$/;"	m	class:MissionEditorEventThread
+run	modules/mavproxy_smartcamera/sc_main.py	/^    def run(self):$/;"	m	class:SmartCamera
+run_command	modules/mavproxy_misc.py	/^def run_command(args, cwd = None, shell = False, timeout = None, env = None):$/;"	f
+run_script	mavproxy.py	/^def run_script(scriptfile):$/;"	f
+sGetLatestImageFilename	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def sGetLatestImageFilename(self):$/;"	m	class:SmartCamera_SonyQX
+sample_parse_args	modules/lib/optparse_gui/__init__.py	/^def sample_parse_args():$/;"	f
+sample_parse_args_issue1	modules/lib/optparse_gui/__init__.py	/^def sample_parse_args_issue1():$/;"	f
+sansHash	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            var sansHash = hash.substr(1),$/;"	v
+save	modules/lib/mp_settings.py	/^    def save(self, filename):$/;"	m	class:MPSettings
+save	modules/mavproxy_smartcamera/sc_config.py	/^    def save(self):$/;"	m	class:SmartCameraConfig
+save_callback	tools/MAVExplorer.py	/^def save_callback(operation, graphdef):$/;"	f
+save_graph	tools/MAVExplorer.py	/^def save_graph(graphdef, mestate):$/;"	f
+save_picture_all	modules/mavproxy_smartcamera/sc_main.py	/^    def save_picture_all(self):$/;"	m	class:SmartCamera
+save_process	tools/MAVExplorer.py	/^def save_process(MAVExpLastGraph):$/;"	f
+save_waypoints	modules/mavproxy_wp.py	/^    def save_waypoints(self, filename):$/;"	m	class:WPModule
+save_wp_file_pushed	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def save_wp_file_pushed(self, event):  # wxGlade: MissionEditorFrame.<event_handler>$/;"	m	class:MissionEditorFrame
+say	mavproxy.py	/^def say(text, priority='important'):$/;"	f
+say	modules/lib/mp_module.py	/^    def say(self, msg, priority='important'):$/;"	m	class:MPModule
+say	modules/mavproxy_speech.py	/^    def say(self, text, priority='important'):$/;"	m	class:SpeechModule
+say_espeak	modules/mavproxy_speech.py	/^    def say_espeak(self, text, priority='important'):$/;"	m	class:SpeechModule
+say_speech	modules/mavproxy_speech.py	/^    def say_speech(self, text, priority='important'):$/;"	m	class:SpeechModule
+say_speechd	modules/mavproxy_speech.py	/^    def say_speechd(self, text, priority='important'):$/;"	m	class:SpeechModule
+say_text	mavproxy.py	/^def say_text(text, priority='important'):$/;"	f
+sc_SonyQX1_0	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    sc_SonyQX1_0 = SmartCameraSonyQX1(0)$/;"	v	class:SmartCamera_SonyQX
+sc_main	modules/mavproxy_smartcamera/sc_main.py	/^    sc_main = SmartCamera(False)$/;"	v
+sc_main	modules/mavproxy_smartcamera/sc_main.py	/^    sc_main = SmartCamera(True)$/;"	v
+sc_video	modules/mavproxy_smartcamera/sc_video.py	/^sc_video = SmartCameraVideo()$/;"	v
+sc_webcam0	modules/mavproxy_smartcamera/sc_webcam.py	/^    sc_webcam0 = SmartCameraWebCam(0)$/;"	v	class:SmartCameraWebCam
+scale	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^                    this.locations[t.identifier] = {$/;"	p	class:this.locations
+scale	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            var scale = 1;$/;"	v
+scale_channel	modules/mavproxy_HIL.py	/^    def scale_channel(self, ch, value):$/;"	m	class:HILModule
+scale_hdg	modules/mavproxy_cameraview.py	/^scale_hdg = 1e-2$/;"	v
+scale_latlon	modules/mavproxy_cameraview.py	/^scale_latlon = 1e-7$/;"	v
+scale_rc	modules/mavproxy_cameraview.py	/^    def scale_rc(self, servo, min, max, param):$/;"	m	class:CameraViewModule
+scale_relative_alt	modules/mavproxy_cameraview.py	/^scale_relative_alt = 1e-3$/;"	v
+scaled_tile	modules/mavproxy_map/mp_tile.py	/^	def scaled_tile(self, tile):$/;"	m	class:MPTile
+selected_objects	modules/mavproxy_map/mp_slipmap_ui.py	/^    def selected_objects(self, pos):$/;"	m	class:MPSlipMapPanel
+selection_index_to_idx	modules/mavproxy_map/__init__.py	/^    def selection_index_to_idx(self, key, selection_index):$/;"	m	class:MapModule
+selection_info	modules/mavproxy_map/mp_slipmap_util.py	/^    def selection_info(self):$/;"	m	class:SlipObject
+selection_info	modules/mavproxy_map/mp_slipmap_util.py	/^    def selection_info(self):$/;"	m	class:SlipPolygon
+send	modules/mavproxy_nsh.py	/^    def send(self, line):$/;"	m	class:NSHModule
+send_all_waypoints	modules/mavproxy_wp.py	/^    def send_all_waypoints(self):$/;"	m	class:WPModule
+send_fence	modules/mavproxy_fence.py	/^    def send_fence(self):$/;"	m	class:FenceModule
+send_heartbeat	mavproxy.py	/^def send_heartbeat(master):$/;"	f
+send_loiter_rad_msg	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def send_loiter_rad_msg(self):$/;"	m	class:MissionEditorFrame
+send_rally_point	modules/mavproxy_rally.py	/^    def send_rally_point(self, i):$/;"	m	class:RallyModule
+send_rally_points	modules/mavproxy_rally.py	/^    def send_rally_points(self):$/;"	m	class:RallyModule
+send_rc_override	modules/mavproxy_rc.py	/^    def send_rc_override(self):$/;"	m	class:RCModule
+send_terrain_data	modules/mavproxy_terrain.py	/^    def send_terrain_data(self):$/;"	m	class:TerrainModule
+send_terrain_data_bit	modules/mavproxy_terrain.py	/^    def send_terrain_data_bit(self, bit):$/;"	m	class:TerrainModule
+sensors_report	modules/mavproxy_sensors.py	/^class sensors_report(object):$/;"	c
+serial_list	mavproxy.py	/^        serial_list = mavutil.auto_detect_serial(preferred_list=['*FTDI*',"*Arduino_Mega_2560*", "*3D_Robotics*", "*USB_to_UART*", '*PX4*', '*FMU*'])$/;"	v
+serial_lock	modules/mavproxy_serial.py	/^    def serial_lock(self, lock):$/;"	m	class:SerialModule
+serial_send	modules/mavproxy_serial.py	/^    def serial_send(self, args):$/;"	m	class:SerialModule
+set	modules/lib/mp_settings.py	/^    def set(self, name, value):$/;"	m	class:MPSettings
+set	modules/lib/mp_settings.py	/^    def set(self, value):$/;"	m	class:MPSetting
+setCenter	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        panUp: function() { return this.panBy(0, 100); },$/;"	m	class:MM.Map
+setCenterZoom	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+setExtent	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+setFromLocations	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Extent
+setLayerAt	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+setSize	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+setZoom	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        zoomOut: function()  { return this.zoomBy(-1); },$/;"	m	class:MM.Map
+setZoomRange	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+set_boolean	modules/mavproxy_smartcamera/sc_config.py	/^    def set_boolean(self, section, option, new_value):$/;"	m	class:SmartCameraConfig
+set_brightness	modules/lib/mp_image.py	/^    def set_brightness(self, brightness):$/;"	m	class:MPImage
+set_cal_max	modules/mavproxy_rcsetup.py	/^    def set_cal_max(self, channel, val):$/;"	m	class:RCSetupModule
+set_cal_min	modules/mavproxy_rcsetup.py	/^    def set_cal_min(self, channel, val):$/;"	m	class:RCSetupModule
+set_callback	modules/lib/mp_settings.py	/^    def set_callback(self, callback):$/;"	m	class:MPSettings
+set_check	modules/lib/mp_checklist.py	/^    def set_check(self, name, state):$/;"	m	class:CheckUI
+set_choices	modules/lib/mp_menu.py	/^    def set_choices(self, items):$/;"	m	class:MPMenuRadio
+set_condition	modules/lib/grapher.py	/^    def set_condition(self, condition):$/;"	m	class:MavGraph
+set_download	modules/mavproxy_map/mp_tile.py	/^        def set_download(self, download):$/;"	f	function:MPTile.__init__
+set_event_queue	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def set_event_queue(self, q):$/;"	m	class:MissionEditorFrame
+set_event_queue_lock	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def set_event_queue_lock(self, l):$/;"	m	class:MissionEditorFrame
+set_fence_enabled	modules/mavproxy_fence.py	/^    def set_fence_enabled(self, do_enable):$/;"	m	class:FenceModule
+set_float	modules/mavproxy_smartcamera/sc_config.py	/^    def set_float(self, section, option, new_value):$/;"	m	class:SmartCameraConfig
+set_gui_event_queue	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def set_gui_event_queue(self, q):$/;"	m	class:MissionEditorFrame
+set_gui_event_queue_lock	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def set_gui_event_queue_lock(self, l):$/;"	m	class:MissionEditorFrame
+set_hidden	modules/mavproxy_map/mp_slipmap_util.py	/^    def set_hidden(self, hidden):$/;"	m	class:SlipObject
+set_home_location	modules/mavproxy_wp.py	/^    def set_home_location(self):$/;"	m	class:WPModule
+set_image	modules/lib/mp_image.py	/^    def set_image(self, img, bgr=False):$/;"	m	class:MPImage
+set_image	modules/lib/mp_widgets.py	/^    def set_image(self, img):$/;"	m	class:ImagePanel
+set_integer	modules/mavproxy_smartcamera/sc_config.py	/^    def set_integer(self, section, option, new_value):$/;"	m	class:SmartCameraConfig
+set_legend	modules/lib/grapher.py	/^    def set_legend(self, legend):$/;"	m	class:MavGraph
+set_legend2	modules/lib/grapher.py	/^    def set_legend2(self, legend2):$/;"	m	class:MavGraph
+set_linestyle	modules/lib/grapher.py	/^    def set_linestyle(self, linestyle):$/;"	m	class:MavGraph
+set_marker	modules/lib/grapher.py	/^    def set_marker(self, marker):$/;"	m	class:MavGraph
+set_menu	modules/lib/mp_image.py	/^    def set_menu(self, menu):$/;"	m	class:MPImage
+set_menu	modules/lib/mp_image.py	/^    def set_menu(self, menu):$/;"	m	class:MPImagePanel
+set_menu	modules/lib/wxconsole.py	/^    def set_menu(self, menu, callback):$/;"	m	class:MessageConsole
+set_mission	modules/mavproxy_map/__init__.py	/^    def set_mission(self, key, selection_index):$/;"	m	class:MapModule
+set_modified_state	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def set_modified_state(self, modified):$/;"	m	class:MissionEditorFrame
+set_multi	modules/lib/grapher.py	/^    def set_multi(self, multi):$/;"	m	class:MavGraph
+set_override	modules/mavproxy_rc.py	/^    def set_override(self, newchannels):$/;"	m	class:RCModule
+set_override_chan	modules/mavproxy_rc.py	/^    def set_override_chan(self, channel, value):$/;"	m	class:RCModule
+set_popup_menu	modules/lib/mp_image.py	/^    def set_popup_menu(self, menu):$/;"	m	class:MPImage
+set_popup_menu	modules/lib/mp_image.py	/^    def set_popup_menu(self, menu):$/;"	m	class:MPImagePanel
+set_position	modules/mavproxy_map/mp_slipmap.py	/^    def set_position(self, key, latlon, layer=None, rotation=0):$/;"	m	class:MPSlipMap
+set_prompt	modules/lib/rline.py	/^    def set_prompt(self, prompt):$/;"	m	class:rline
+set_service	modules/mavproxy_map/mp_tile.py	/^        def set_service(self, service):$/;"	f	function:MPTile.__init__
+set_show_flightmode	modules/lib/grapher.py	/^    def set_show_flightmode(self, value):$/;"	m	class:MavGraph
+set_status	modules/lib/textconsole.py	/^    def set_status(self, name, text='', row=0, fg='black', bg='white'):$/;"	m	class:SimpleConsole
+set_status	modules/lib/wxconsole.py	/^    def set_status(self, name, text='', row=0, fg='black', bg='white'):$/;"	m	class:MessageConsole
+set_stream_rates	mavproxy.py	/^def set_stream_rates():$/;"	f
+set_string	modules/mavproxy_smartcamera/sc_config.py	/^    def set_string(self, section, option, new_value):$/;"	m	class:SmartCameraConfig
+set_timeshift	modules/lib/grapher.py	/^    def set_timeshift(self, timeshift):$/;"	m	class:MavGraph
+set_title	modules/lib/mp_image.py	/^    def set_title(self, title):$/;"	m	class:MPImage
+set_xaxis	modules/lib/grapher.py	/^    def set_xaxis(self, xaxis):$/;"	m	class:MavGraph
+settings	modules/lib/mp_module.py	/^    def settings(self):$/;"	m	class:MPModule
+settings	modules/lib/wxsettings.py	/^    settings = mp_settings.MPSettings($/;"	v
+setup_file_menu	tools/MAVExplorer.py	/^def setup_file_menu():$/;"	f
+setup_menus	tools/MAVExplorer.py	/^def setup_menus():$/;"	f
+show	mavproxy.py	/^    def show(self, f, pattern=None):$/;"	m	class:MPStatus
+show	modules/lib/grapher.py	/^    def show(self, block=True):$/;"	m	class:MavGraph
+show	modules/lib/mp_menu.py	/^    def show(self):        $/;"	m	class:MPMenuChildMessageDialog
+show	modules/lib/mp_settings.py	/^    def show(self, v):$/;"	m	class:MPSettings
+show_all	modules/lib/mp_settings.py	/^    def show_all(self):$/;"	m	class:MPSettings
+show_default_popup	modules/mavproxy_map/mp_slipmap_ui.py	/^    def show_default_popup(self, pos):$/;"	m	class:MPSlipMapPanel
+show_link	modules/mavproxy_link.py	/^    def show_link(self):$/;"	m	class:LinkModule
+show_popup	modules/mavproxy_map/mp_slipmap_ui.py	/^    def show_popup(self, selected, pos):$/;"	m	class:MPSlipMapPanel
+show_popup_menu	modules/lib/mp_image.py	/^    def show_popup_menu(self, pos):$/;"	m	class:MPImagePanel
+show_position	modules/mavproxy_map/__init__.py	/^    def show_position(self):$/;"	m	class:MapModule
+sitl_output	modules/lib/mp_module.py	/^    def sitl_output(self):$/;"	m	class:MPModule
+size	modules/mavproxy_map/mp_tile.py	/^	def size(self):$/;"	m	class:TileInfo
+sizer	modules/lib/wxsettings_ui.py	/^    def sizer(self, tab_name):$/;"	m	class:TabbedDialog
+sm	modules/mavproxy_map/mp_slipmap.py	/^    sm = MPSlipMap(lat=opts.lat,$/;"	v
+south	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        north: 0,$/;"	p	class:MM.Extent
+southEast	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Extent
+southWest	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Extent
+start_background_capture	modules/mavproxy_smartcamera/sc_video.py	/^    def start_background_capture(self):$/;"	m	class:SmartCameraVideo
+start_download_thread	modules/mavproxy_map/mp_tile.py	/^	def start_download_thread(self):$/;"	m	class:MPTile
+start_motor	modules/mavproxy_gasheli.py	/^    def start_motor(self):$/;"	m	class:GasHeliModule
+start_new_log	modules/mavproxy_dataflash_logger.py	/^    def start_new_log(self):$/;"	m	class:dataflash_logger
+start_ppp_link	modules/mavproxy_ppp.py	/^    def start_ppp_link(self):$/;"	m	class:PPPModule
+start_server	modules/mavproxy_mmap/mmap_server.py	/^def start_server(address, port, module_state):$/;"	f
+state	modules/lib/rline.py	/^    state = mystate()$/;"	v
+status	modules/lib/mp_module.py	/^    def status(self):$/;"	m	class:MPModule
+status	modules/mavproxy_dataflash_logger.py	/^    def status(self):$/;"	m	class:dataflash_logger
+stop	modules/mavproxy_nsh.py	/^    def stop(self):$/;"	m	class:NSHModule
+stop_background_capture	modules/mavproxy_smartcamera/sc_video.py	/^    def stop_background_capture(self):$/;"	m	class:SmartCameraVideo
+stop_motor	modules/mavproxy_gasheli.py	/^    def stop_motor(self):$/;"	m	class:GasHeliModule
+stop_ppp_link	modules/mavproxy_ppp.py	/^    def stop_ppp_link(self):$/;"	m	class:PPPModule
+style	modules/mavproxy_mmap/mmap_app/bing.js	/^    key: null,$/;"	p	class:MM.BingProvider
+subdomains	modules/mavproxy_mmap/mmap_app/bing.js	/^    style: null,$/;"	p	class:MM.BingProvider
+swapLayersAt	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+t0	modules/mavproxy_map/mp_elevation.py	/^    t0 = time.time()$/;"	v	class:ElevationModel
+t1	modules/mavproxy_map/mp_elevation.py	/^    t1 = time.time()+.000001$/;"	v	class:ElevationModel
+take_picture	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def take_picture(self):$/;"	m	class:SmartCamera_SonyQX
+take_picture	modules/mavproxy_smartcamera/sc_webcam.py	/^    def take_picture(self):$/;"	m	class:SmartCameraWebCam
+take_picture_all	modules/mavproxy_smartcamera/sc_main.py	/^    def take_picture_all(self):$/;"	m	class:SmartCamera
+targetAperture	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^targetAperture = 120$/;"	v
+targetISOValue	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^targetISOValue = "AUTO"$/;"	v
+targetShutterSpeed	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^targetShutterSpeed = 1600$/;"	v
+target_component	modules/lib/mp_module.py	/^    def target_component(self):$/;"	m	class:MPModule
+target_system	modules/lib/mp_module.py	/^    def target_system(self):$/;"	m	class:MPModule
+tell_sender_to_start	modules/mavproxy_dataflash_logger.py	/^    def tell_sender_to_start(self):$/;"	m	class:dataflash_logger
+tell_sender_to_stop	modules/mavproxy_dataflash_logger.py	/^    def tell_sender_to_stop(self, m):$/;"	m	class:dataflash_logger
+terminate	modules/lib/mp_image.py	/^    def terminate(self):$/;"	m	class:MPImage
+test_callback	modules/lib/wxsettings.py	/^    def test_callback(setting):$/;"	f
+tile	modules/mavproxy_map/srtm.py	/^    tile = downloader.getTile(-36, 149)$/;"	v
+tile.ondragstart	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            tile.style.cssText = 'position:absolute;-webkit-user-select: none;-webkit-user-drag: none;-moz-user-drag: none;';$/;"	f
+tileCacheSize	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        requestManager: null,$/;"	p	class:MM.Layer
+tileCoord	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            var tileCoord = startCoord.copy();$/;"	v
+tileCovered	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            var tileCovered = false;$/;"	v
+tileLimits	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.MapProvider.prototype = {$/;"	p	class:MM.MapProvider
+tileSize	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        coordinate: null,      \/\/ Center of map MM.Coordinate with row\/column\/zoom$/;"	p	class:MM.Map
+tile_to_path	modules/mavproxy_map/mp_tile.py	/^	def tile_to_path(self, tile):$/;"	m	class:MPTile
+tiles	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        parent: null,$/;"	p	class:MM.Layer
+tiles_pending	modules/mavproxy_map/mp_tile.py	/^	def tiles_pending(self):$/;"	m	class:MPTile
+time_to_process_gui_events	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def time_to_process_gui_events(self, evt):$/;"	m	class:MissionEditorFrame
+tlist	modules/mavproxy_map/mp_tile.py	/^		tlist = mt.area_to_tile_list(lat, lon, width=1024, height=1024,$/;"	v
+toArray	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Extent
+toKey	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Coordinate
+toMicrosoft	modules/mavproxy_mmap/mmap_app/bing.js	/^    function toMicrosoft(column, row, zoom) {$/;"	f	function:MM.BingProvider
+toString	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        autoSize: null,        \/\/ Boolean, true if we have a window resize listener$/;"	m	class:MM.Map
+toString	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        lon: 0,$/;"	m	class:MM.Location
+toString	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        y: 0,$/;"	m	class:MM.Point
+toString	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        zoom: 0,$/;"	m	class:MM.Coordinate
+toString	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Extent
+transform	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        cy: 0,$/;"	m	class:MM.Transformation
+transformation	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        zoom: 0,$/;"	p	class:MM.Projection
+tune_option_validate	modules/mavproxy_tuneopt.py	/^    def tune_option_validate(self, option):$/;"	m	class:TuneoptModule
+tune_options	modules/mavproxy_tuneopt.py	/^tune_options = {$/;"	v
+tune_show	modules/mavproxy_tuneopt.py	/^    def tune_show(self):$/;"	m	class:TuneoptModule
+tx	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            var tx = tile.coord.column *$/;"	v
+ty	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            var ty = tile.coord.row *$/;"	v
+u32GetImageCounter	modules/mavproxy_smartcamera/sc_SonyQX1.py	/^    def u32GetImageCounter(self):$/;"	m	class:SmartCamera_SonyQX
+unknown_command	modules/lib/mp_module.py	/^    def unknown_command(self, args):$/;"	m	class:MPModule
+unknown_command	modules/mavproxy_mode.py	/^    def unknown_command(self, args):$/;"	m	class:ModeModule
+unload	modules/lib/mp_module.py	/^    def unload(self):$/;"	m	class:MPModule
+unload	modules/mavproxy_HIL.py	/^    def unload(self):$/;"	m	class:HILModule
+unload	modules/mavproxy_cameraview.py	/^    def unload(self):$/;"	m	class:CameraViewModule
+unload	modules/mavproxy_console.py	/^    def unload(self):$/;"	m	class:ConsoleModule
+unload	modules/mavproxy_graph.py	/^    def unload(self):$/;"	m	class:GraphModule
+unload	modules/mavproxy_map/__init__.py	/^    def unload(self):$/;"	m	class:MapModule
+unload	modules/mavproxy_misseditor/__init__.py	/^    def unload(self):$/;"	m	class:MissionEditorModule
+unload	modules/mavproxy_mmap/__init__.py	/^    def unload(self):$/;"	m	class:MMapModule
+unload	modules/mavproxy_ppp.py	/^    def unload(self):$/;"	m	class:PPPModule
+unload	modules/mavproxy_rcsetup.py	/^    def unload(self):$/;"	m	class:RCSetupModule
+unload	modules/mavproxy_speech.py	/^    def unload(self):$/;"	m	class:SpeechModule
+unload_module	mavproxy.py	/^def unload_module(modname):$/;"	f
+unproject	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Projection
+untransform	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Transformation
+up	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Coordinate
+update	modules/mavproxy_adsb.py	/^    def update(self, state):$/;"	m	class:ADSBVehicle
+update	modules/mavproxy_map/mp_slipmap_util.py	/^    def update(self, newinfo):$/;"	m	class:SlipInfoImage
+update	modules/mavproxy_map/mp_slipmap_util.py	/^    def update(self, newinfo):$/;"	m	class:SlipInfoText
+update	modules/mavproxy_map/mp_slipmap_util.py	/^    def update(self, newinfo):$/;"	m	class:SlipInformation
+updateLayer	modules/mavproxy_mmap/mmap_app/index.html	/^function updateLayer() {$/;"	f
+updateMap	modules/mavproxy_mmap/mmap_app/index.html	/^function updateMap() {$/;"	f
+updateState	modules/mavproxy_mmap/mmap_app/index.html	/^function updateState() {$/;"	f
+updateTelemetryDisplay	modules/mavproxy_mmap/mmap_app/index.html	/^function updateTelemetryDisplay() {$/;"	f
+update_col	modules/mavproxy_cameraview.py	/^    def update_col(self):$/;"	m	class:CameraViewModule
+update_map_click_position	modules/mavproxy_misseditor/__init__.py	/^    def update_map_click_position(self, new_click_pos):$/;"	m	class:MissionEditorModule
+update_position	modules/mavproxy_map/mp_slipmap_ui.py	/^    def update_position(self):$/;"	m	class:MPSlipMapPanel
+update_position	modules/mavproxy_map/mp_slipmap_util.py	/^    def update_position(self, newpos):$/;"	m	class:SlipObject
+update_position	modules/mavproxy_map/mp_slipmap_util.py	/^    def update_position(self, newpos):$/;"	m	class:SlipTrail
+update_threat_distances	modules/mavproxy_adsb.py	/^    def update_threat_distances(self, latlonalt):$/;"	m	class:ADSBModule
+update_values	modules/lib/wxgrapheditor.py	/^    def update_values(self):$/;"	m	class:GraphDialog
+update_waypoints	modules/mavproxy_wp.py	/^    def update_waypoints(self, filename, wpnum):$/;"	m	class:WPModule
+url	modules/mavproxy_map/mp_tile.py	/^	def url(self, service):$/;"	m	class:TileInfo
+usage	modules/mavproxy_dataflash_logger.py	/^    def usage(self):$/;"	m	class:dataflash_logger
+validTileKeys	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            var validTileKeys = { };$/;"	v
+validTouchIds	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            var validTouchIds = {};$/;"	v
+valid_starter_settings	modules/mavproxy_gasheli.py	/^    def valid_starter_settings(self):$/;"	m	class:GasHeliModule
+vcell_to_battery_percent	modules/mavproxy_battery.py	/^    def vcell_to_battery_percent(self, vcell):$/;"	m	class:BatteryModule
+vehicle_name	modules/lib/mp_module.py	/^    def vehicle_name(self):$/;"	m	class:MPModule
+vehicle_type	modules/lib/mp_module.py	/^    def vehicle_type(self):$/;"	m	class:MPModule
+version	mavproxy.py	/^        version = pkg_resources.require("mavproxy")[0].version$/;"	v
+watch_thread	modules/lib/wxconsole.py	/^    def watch_thread(self):$/;"	m	class:MessageConsole
+watch_thread	modules/lib/wxsettings.py	/^    def watch_thread(self):$/;"	m	class:WXSettings
+west	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        east: 0,$/;"	p	class:MM.Extent
+window	modules/mavproxy_mmap/mmap_app/bing.js	/^    var provider = this;$/;"	m
+windowResize	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+wp_draw_callback	modules/mavproxy_wp.py	/^    def wp_draw_callback(self, points):$/;"	m	class:WPModule
+wp_loop	modules/mavproxy_wp.py	/^    def wp_loop(self):$/;"	m	class:WPModule
+wrap_valid_longitude	modules/lib/mp_util.py	/^def wrap_valid_longitude(lon):$/;"	f
+write	mavproxy.py	/^    def write(self):$/;"	m	class:MPStatus
+write	modules/lib/textconsole.py	/^    def write(self, text, fg='black', bg='white'):$/;"	m	class:SimpleConsole
+write	modules/lib/wxconsole.py	/^    def write(self, text, fg='black', bg='white'):$/;"	m	class:MessageConsole
+write_ASCII	modules/lib/ANUGA/geo_reference.py	/^    def write_ASCII(self, fd):$/;"	m	class:Geo_reference
+write_NetCDF	modules/lib/ANUGA/geo_reference.py	/^    def write_NetCDF(self, outfile):$/;"	m	class:Geo_reference
+write_NetCDF_georeference	modules/lib/ANUGA/geo_reference.py	/^def write_NetCDF_georeference(origin, outfile):$/;"	f
+write_wp_pushed	modules/mavproxy_misseditor/missionEditorFrame.py	/^    def write_wp_pushed(self, event):  # wxGlade: MissionEditorFrame.<event_handler>$/;"	m	class:MissionEditorFrame
+writeln	modules/lib/textconsole.py	/^    def writeln(self, text, fg='black', bg='white'):$/;"	m	class:SimpleConsole
+wxToPIL	modules/lib/mp_util.py	/^def wxToPIL(wimg):$/;"	f
+wx_menu	modules/lib/mp_menu.py	/^    def wx_menu(self):$/;"	m	class:MPMenuSubMenu
+wx_menu	modules/lib/mp_menu.py	/^    def wx_menu(self):$/;"	m	class:MPMenuTop
+x	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    x = easting - 500000.0 #remove 500,000 meter offset for longitude$/;"	v
+x	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^                var pos = { x: t.screenX, y: t.screenY },$/;"	p	class:var.pos
+x	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^            var pos = { x: touch.screenX, y: touch.screenY },$/;"	p
+x	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.Point.prototype = {$/;"	p	class:MM.Point
+y	modules/lib/ANUGA/lat_long_UTM_conversion.py	/^    y = northing$/;"	v
+y	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        x: 0,$/;"	p	class:MM.Point
+zoom	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        column: 0,$/;"	p	class:MM.Coordinate
+zoom	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+zoom	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^    MM.Projection.prototype = {$/;"	p	class:MM.Projection
+zoomBy	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Coordinate
+zoomBy	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+zoomByAbout	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        setZoom: function(z) { return this.zoomBy(z - this.coordinate.zoom); },$/;"	m	class:MM.Map
+zoomIn	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Map
+zoomOut	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        zoomIn: function()  { return this.zoomBy(1); },$/;"	m	class:MM.Map
+zoomTo	modules/mavproxy_mmap/mmap_app/modestmaps.js	/^        },$/;"	m	class:MM.Coordinate
+zooms	modules/mavproxy_map/mp_tile.py	/^		zooms = [opts.zoom]$/;"	v
+zooms	modules/mavproxy_map/mp_tile.py	/^		zooms = range(mt.min_zoom, mt.max_zoom+1)$/;"	v

@@ -21,7 +21,7 @@ dis3==0.1.1
 duplicity==0.6.23
 empy==3.1
 future==0.16.0
-html5lib==0.999
+html5lib==0.99999999
 httplib2==0.8
 lockfile==0.8
 lxml==4.0.0

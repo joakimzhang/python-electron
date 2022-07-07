@@ -49,7 +49,7 @@ python-pydown==0.1.0
 pytz==2012c
 pyxdg==0.25
 reportlab==3.0
-requests==2.2.1
+requests==2.20.0
 robotframework==3.0
 robotframework-ride==1.5.2.1
 sessioninstaller==0.0.0

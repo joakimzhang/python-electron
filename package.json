@@ -9,6 +9,6 @@
   },
   "devDependencies": {
     "electron": "1.4.1",
-    "electron-packager": "8.5.1"
+    "electron-packager": "16.0.0"
   }
 }

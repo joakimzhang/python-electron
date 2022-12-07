@@ -10,7 +10,7 @@ apt-xapian-index==0.45
 argparse==1.2.1
 backports-abc==0.5
 backports.ssl-match-hostname==3.5.0.1
-certifi==2017.07.27.1
+certifi==2022.12.7
 chardet==2.0.1
 colorama==0.2.5
 command-not-found==0.3
